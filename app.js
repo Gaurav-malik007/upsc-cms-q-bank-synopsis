@@ -64,9 +64,6 @@ function playSound(type) {
 
 // Elements
 const el = {
-    debug: {
-        overlay: document.createElement('div'),
-    },
     screens: {},
     auth: {},
     start: {},
@@ -74,7 +71,9 @@ const el = {
     flashcard: {}, // Kept empty for safety
     score: {},
     paywall: {
-        modal: document.getElementById('paywallModal')
+        modal: document.getElementById('paywallModal'),
+        btnUpgradeUPSC2026: document.getElementById('btnUpgradeUPSC2026'),
+        btnCancel: document.getElementById('btnCancelPaywall')
     },
     customQBank: {
         modal: document.getElementById('customQBankModal'),
@@ -238,6 +237,11 @@ function refreshElements() {
     el.score.unanswered = document.getElementById('scoreUnanswered');
     el.score.btnReview = document.getElementById('btnReviewAnswers');
     el.score.btnDashboard = document.getElementById('btnBackToDashboard');
+
+    // Paywall elements
+    el.paywall.modal = document.getElementById('paywallModal');
+    el.paywall.btnUpgradeUPSC2026 = document.getElementById('btnUpgradeUPSC2026');
+    el.paywall.btnCancel = document.getElementById('btnCancelPaywall');
 }
 
 // Initial Setup
@@ -305,25 +309,6 @@ async function initApp() {
                 initDashboard();
                 switchScreen('start');
                 
-                // Add debug overlay
-                document.body.appendChild(el.debug.overlay);
-                el.debug.overlay.style.cssText = "position:fixed;bottom:10px;right:10px;background:rgba(0,0,0,0.9);color:white;padding:12px;border-radius:8px;font-size:11px;z-index:9999;font-family:monospace;line-height:1.4;box-shadow:0 4px 12px rgba(0,0,0,0.5);border:1px solid #444;";
-                setInterval(() => {
-                   if (typeof mcqData === 'undefined') {
-                       el.debug.overlay.innerHTML = "DATA MISSING";
-                       return;
-                   }
-                   const rawSubs = Array.from(new Set(mcqData.slice(0, 100).map(q => q.subject))).slice(0, 5).join(', ');
-                   const liveMatch = filterQuestions().length;
-                   el.debug.overlay.innerHTML = `
-                    <b>DEBUG MENU</b><br>
-                    Data Count: ${mcqData.length}<br>
-                    Selected: ${state.currentSubject}<br>
-                    Live Match: ${liveMatch}<br>
-                    Data Samples: [${rawSubs}]<br>
-                    <button onclick="console.log('Current State:', state); console.log('Sample Data:', mcqData[0])" style="margin-top:5px;cursor:pointer;background:#444;color:white;border:none;padding:2px 5px;border-radius:3px;">Log State</button>
-                   `;
-                }, 1000);
             }
         } catch (e) {
             console.error("Supabase session check error:", e);
@@ -858,8 +843,8 @@ function filterQuestions() {
 function startMode(mode) {
     console.log("startMode triggered:", mode);
     // FREEMIUM CHECK 
-    if (!state.isPremium && state.questionsAttempted >= 100) {
-        console.warn("Entry blocked: User hit 100 question limit.");
+    if (!state.isPremium && state.questionsAttempted >= 50) {
+        console.warn("Entry blocked: User hit 50 question limit.");
         el.paywall.modal.classList.remove('hidden');
         return; 
     }
@@ -1228,7 +1213,7 @@ function setupScoreListeners() {
 
         try {
             // 1. Create order on the backend
-            const amount = planText === 'Monthly Plan' ? 199 : 999;
+            const amount = 600;
             const res = await fetch(`${BACKEND_URL}/create-order`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -1306,11 +1291,8 @@ function setupScoreListeners() {
         }
     };
 
-    if (el.paywall.btnUpgradeMonthly) {
-        el.paywall.btnUpgradeMonthly.addEventListener('click', () => handleUpgrade(el.paywall.btnUpgradeMonthly, 'Monthly Plan'));
-    }
-    if (el.paywall.btnUpgradeSixMonth) {
-        el.paywall.btnUpgradeSixMonth.addEventListener('click', () => handleUpgrade(el.paywall.btnUpgradeSixMonth, '6-Month Plan'));
+    if (el.paywall.btnUpgradeUPSC2026) {
+        el.paywall.btnUpgradeUPSC2026.addEventListener('click', () => handleUpgrade(el.paywall.btnUpgradeUPSC2026, 'UPSC CMS 2026 Plan'));
     }
 }
 
