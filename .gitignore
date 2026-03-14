@@ -1,0 +1,12 @@
+node_modules/
+.env
+.gemini/
+*.pdf
+pyq pdf/
+images/
+audit_options.py
+check_2024.py
+fix_data.py
+prettify_data.py
+find_error_context.py
+/tmp/

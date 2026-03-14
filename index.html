@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synopsis - a UPSC CMS special</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <!-- Supabase JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5207027730717457"
+        crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+</head>
+
+<body>
+    <!-- Setup Toast Notifications -->
+    <div id="toast" class="toast hidden"></div>
+
+    <!-- Paywall Modal -->
+    <div id="paywallModal" class="modal hidden">
+        <div class="modal-content">
+            <h2 style="color: var(--accent); margin-bottom: 0.5rem;">Ready to Unlock Everything? 🌟</h2>
+            <p style="margin-bottom: 1rem; color: var(--text-light);">You have completed your 100 free questions!</p>
+            
+            <!-- Urgency Banner -->
+            <div style="background: #fef2f2; border: 1px solid #fee2e2; padding: 0.75rem; border-radius: 8px; margin-bottom: 1.5rem; animation: pulse-red 2s infinite;">
+                <p style="color: #dc2626; font-weight: 700; margin: 0; font-size: 0.95rem;">
+                    ⚠️ LIMITED TIME OFFER: Price increases by 50% soon!
+                </p>
+                <p style="color: #991b1b; margin: 4px 0 0 0; font-size: 0.85rem;">Avail this price before it's gone forever.</p>
+            </div>
+
+            <p style="margin-bottom: 1.5rem;">Upgrade to <strong>Premium</strong> to unlock unlimited questions,
+                flashcards, bookmark reviews, and super revision features!</p>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem;">
+                <button id="btnUpgradeMonthly" class="btn-primary paywall-plan-btn"
+                    style="background-color: #f59e0b; padding: 1rem; border: 2px solid transparent;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                        <div style="text-align: left;">
+                            <div style="font-weight: 700; font-size: 1.1rem;">Monthly Plan</div>
+                            <div style="font-size: 0.85rem; opacity: 0.9;">Billed monthly</div>
+                        </div>
+                        <div style="font-size: 1.25rem; font-weight: 700;">₹199 / mo</div>
+                    </div>
+                </button>
+                <button id="btnUpgradeSixMonth" class="btn-primary paywall-plan-btn"
+                    style="background-color: #8b5cf6; padding: 1rem; border: 2px solid transparent;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                        <div style="text-align: left;">
+                            <div style="font-weight: 700; font-size: 1.1rem;">6-Month Plan</div>
+                            <div style="font-size: 0.85rem; opacity: 0.9;">Most Popular • Billed once</div>
+                        </div>
+                        <div style="font-size: 1.25rem; font-weight: 700;">₹999</div>
+                    </div>
+                </button>
+            </div>
+
+            <div style="text-align: center;">
+                <button id="btnCancelPaywall" class="btn-secondary" style="border: none; background: transparent;">Maybe
+                    Later</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Header -->
+    <header class="app-header">
+        <div class="header-logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg>
+            <h1>Synopsis <span
+                    style="font-size: 0.875rem; color: var(--text-muted); font-weight: normal; margin-left: 0.5rem; display: none;"
+                    class="subtitle-desktop">- a UPSC CMS special</span></h1>
+        </div>
+        <div class="header-user hidden" id="headerUser">
+            <span id="userNameDisplay">User</span>
+            <button id="logoutBtn" class="btn-text">Logout</button>
+        </div>
+    </header>
+
+    <main class="app-container">
+
+        <!-- Registration / Login Screen -->
+        <section id="authScreen" class="screen active">
+            <div class="auth-card">
+                <div class="auth-header">
+                    <div class="auth-icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    </div>
+                    <h2>Welcome to Synopsis</h2>
+                    <p class="branding-subtitle">a UPSC CMS special</p>
+                </div>
+
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="login">Login</button>
+                    <button class="tab-btn" data-tab="register">Register</button>
+                </div>
+
+                <!-- Login Form -->
+                <form id="loginForm" class="auth-form">
+                    <div class="form-group">
+                        <label for="loginEmail">Email Address</label>
+                        <div class="input-with-icon">
+                            <span class="input-icon">✉️</span>
+                            <input type="email" id="loginEmail" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <div class="input-with-icon">
+                            <span class="input-icon">🔒</span>
+                            <input type="password" id="loginPassword" placeholder="••••••••" required>
+                        </div>
+                        <small class="forgot-link-container">
+                            <a href="#" id="forgotPasswordLink">Forgot Password?</a>
+                        </small>
+                    </div>
+                    <button type="submit" class="btn-primary" id="loginSubmitBtn">Login to Continue</button>
+                </form>
+
+                <!-- Register Form (Restructured) -->
+                <form id="registerForm" class="auth-form hidden">
+                    <div class="form-section">
+                        <h4 class="form-section-title">Personal Details</h4>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="regName">Full Name</label>
+                                <input type="text" id="regName" placeholder="Dr. Gaurav Malik" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="regPhone">Phone Number</label>
+                                <input type="tel" id="regPhone" placeholder="+91 9876543210" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h4 class="form-section-title">Academic Details</h4>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="regCollege">Medical College</label>
+                                <input type="text" id="regCollege" placeholder="e.g. AIIMS Delhi" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="regBatch">Batch (Year)</label>
+                                <input type="text" id="regBatch" placeholder="e.g. 2019" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h4 class="form-section-title">Account Security</h4>
+                        <div class="form-group">
+                            <label for="regEmail">Email Address</label>
+                            <input type="email" id="regEmail" placeholder="email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="regPassword">Password</label>
+                            <input type="password" id="regPassword" placeholder="Min. 8 characters" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary" id="regSubmitBtn">Create My Account</button>
+                </form>
+
+                <!-- Forgot Password Form -->
+                <form id="forgotPasswordForm" class="auth-form hidden">
+                    <div class="auth-form-header">
+                        <h3>Reset Password</h3>
+                        <p>We'll send a secure link to your email.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="forgotEmail">Email Address</label>
+                        <input type="email" id="forgotEmail" placeholder="Enter your registered email" required>
+                    </div>
+                    <button type="submit" class="btn-primary" id="forgotSubmitBtn">Send Reset Link</button>
+                    <button type="button" class="btn-text" id="backToLoginBtn" style="width: 100%; margin-top: 1rem;">← Back to Login</button>
+                </form>
+
+                <!-- Reset Password Form -->
+                <form id="resetPasswordForm" class="auth-form hidden">
+                    <div class="auth-form-header">
+                        <h3>Set New Password</h3>
+                        <p>Enter your new secure password below.</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="newPassword">New Password</label>
+                        <input type="password" id="newPassword" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="btn-primary" id="resetSubmitBtn">Update Password</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Start/Configuration Screen -->
+        <section id="startScreen" class="screen hidden">
+            <!-- Dashboard Ad -->
+            <div class="ad-container ad-banner premium-hidden">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5207027730717457"
+                    data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div class="dashboard-card">
+                <!-- Module Tabs Removed: QBank Practice Only -->
+
+
+                <div id="pyqConfig">
+                    <div class="config-group">
+                        <h3>Select Subject</h3>
+                        <div class="subject-chips" id="subjectChips">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="config-group">
+                        <h3>Select Year</h3>
+                        <select id="yearSelect" class="form-select">
+                            <option value="all">All Years</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+                <div id="rrConfig" class="hidden">
+                    <div class="config-group">
+                                     <!-- Marrow RR Config Removed -->
+     </div>
+                </div>
+
+
+
+                <div class="config-group">
+                    <h3>Select Unit (Optional filter)</h3>
+                    <input type="text" id="unitInput" class="form-select" placeholder="e.g. malaria, heart...">
+                </div>
+
+                <div class="config-group">
+                    <h3>Number of Questions</h3>
+                    <select id="limitSelect" class="form-select">
+                        <option value="all">All Available</option>
+                        <option value="10">10 Questions</option>
+                        <option value="20">20 Questions</option>
+                        <option value="50">50 Questions</option>
+                        <option value="100">100 Questions</option>
+                    </select>
+                </div>
+
+                <div class="config-group">
+                    <h3>Exam Timer (Optional)</h3>
+                    <input type="number" id="timerInput" class="form-select"
+                        placeholder="e.g. 60 (Minutes) for Exam Mode only" min="1">
+                </div>
+
+                <div class="config-group"
+                    style="display: flex; gap: 2rem; align-items: center; padding: 1rem; background: var(--bg-main); border-radius: var(--radius); border: 1px solid var(--border);">
+                    <div>
+                        <h3 style="margin-bottom: 0.25rem;">Preferences</h3>
+                        <p style="margin-bottom: 0; font-size: 0.875rem;">Customize your study experience.</p>
+                    </div>
+                    <div style="display: flex; gap: 1rem; margin-left: auto;">
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; margin: 0;">
+                            <input type="checkbox" id="toggleDarkMode" style="width: auto; margin: 0;"> Dark Mode 🌙
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer; margin: 0;">
+                            <input type="checkbox" id="toggleSound" style="width: auto; margin: 0;" checked> Sounds 🔊
+                        </label>
+                    </div>
+                </div>
+
+                <div class="action-cards">
+                    <!-- Reading Mode Card Removed -->
+                    <div class="action-card" id="btnStudyMode">
+                        <div class="card-icon">📚</div>
+                        <h3>Study Mode</h3>
+                        <p>Practice MCQs with immediate feedback and explanations.</p>
+                    </div>
+                    <div class="action-card" id="btnExamMode">
+                        <div class="card-icon">⏱️</div>
+                        <h3>Exam Mode</h3>
+                        <p>Simulate the exam environment. Results at the end.</p>
+                    </div>
+                    <div class="action-card" id="btnReviewBookmarks"
+                        style="border-color: #f59e0b; background: #fffbeb;">
+                        <div class="card-icon">⭐</div>
+                        <h3 style="color: #d97706;">Review Bookmarks</h3>
+                        <p>Revisit the questions and flashcards you saved for later.</p>
+                    </div>
+                    <div class="action-card" id="btnCustomQBank" style="border-color: #8b5cf6; background: #f5f3ff;">
+                        <div class="card-icon">🎯</div>
+                        <h3 style="color: #6d28d9;">Custom QBank</h3>
+                        <p>Create a custom practice session with multiple subjects and time limits.</p>
+                    </div>
+                    <div class="action-card" id="btnSuperRevision" style="border-color: #ef4444; background: #fef2f2;">
+                        <div class="card-icon">🔥</div>
+                        <h3 style="color: #b91c1c;">Super Revision</h3>
+                        <p>Practice the questions and flashcards you've answered wrong multiple times.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quizScreen" class="screen hidden">
+            <div class="quiz-header">
+                <button class="btn-back" id="btnEndQuiz">← End Quiz</button>
+                <div id="quizTimerDisplay" class="hidden"
+                    style="font-weight: bold; color: var(--accent); white-space: nowrap; margin-left: 1rem; border: 1px solid var(--accent); padding: 0.25rem 0.75rem; border-radius: 999px;">
+                    ⏱️ <span id="quizTimerText">00:00</span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="quizProgress"></div>
+                </div>
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <button id="btnBookmarkQuiz" class="btn-icon-small" title="Bookmark this Question">☆</button>
+                    <div class="question-tracker">Question <span id="qCurrent">1</span>/<span id="qTotal">10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <div class="question-meta" id="qSubject">Medicine</div>
+                <h3 class="question-text" id="qText">Loading question...</h3>
+                <img id="qImage" class="hidden" src="" alt="Question Image"
+                    style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
+
+                <div class="options-container" id="qOptions">
+                    <!-- Options populated dynamically -->
+                </div>
+            </div>
+
+            <div class="explanation-card hidden" id="qExplanation">
+                <h4>Explanation & Tip</h4>
+                <img id="expImage" class="hidden" src="" alt="Explanation Image"
+                    style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
+                <p id="expText"></p>
+            </div>
+
+            <!-- Quiz Footer Ad -->
+            <div class="ad-container ad-banner premium-hidden" style="margin-top: 1rem;">
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5207027730717457"
+                    data-ad-slot="0987654321" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <div class="quiz-footer">
+                <button class="btn-secondary" id="btnPrev" disabled>Previous</button>
+                <button class="btn-primary" id="btnNext">Next</button>
+            </div>
+        </section>
+
+
+        <!-- Score Dashboard Screen -->
+        <section id="scoreScreen" class="screen hidden">
+            <div class="dashboard-card score-card">
+                <h2>Quiz Complete!</h2>
+
+                <div class="score-circle">
+                    <svg viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle" id="scoreCircle" stroke-dasharray="0, 100"
+                            d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <text x="18" y="20.35" class="percentage" id="scorePercentage">0%</text>
+                    </svg>
+                </div>
+
+                <div class="score-stats">
+                    <div class="stat-item">
+                        <span class="stat-value" id="scoreCorrect">0</span>
+                        <span class="stat-label">Correct</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="scoreWrong">0</span>
+                        <span class="stat-label">Incorrect</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="scoreUnanswered">0</span>
+                        <span class="stat-label">Skipped</span>
+                    </div>
+                </div>
+
+                <!-- Score Ad -->
+                <div class="ad-container ad-inline premium-hidden"
+                    style="margin-top: 1.5rem; border-top: 1px solid var(--border); padding-top: 1.5rem;">
+                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5207027730717457"
+                        data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+
+                <div class="score-actions">
+                    <button class="btn-secondary" id="btnReviewAnswers">Review Answers</button>
+                    <button class="btn-primary" id="btnBackToDashboard">Return to Dashboard</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- Custom QBank Modal -->
+    <div id="customQBankModal" class="modal hidden">
+        <div class="modal-content" style="max-width: 600px;">
+            <h2 style="color: var(--primary); margin-bottom: 0.5rem;">Custom QBank 🎯</h2>
+            <p style="margin-bottom: 1.5rem;">Select multiple subjects and customize your session.</p>
+
+            <div class="config-group">
+                <h3>Select Subjects</h3>
+                <div class="subject-chips" id="customSubjectChips">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div class="config-group">
+                    <h3>No. of Questions</h3>
+                    <input type="number" id="customLimitInput" class="form-select" value="50" min="1" max="200">
+                </div>
+                <div class="config-group">
+                    <h3>Time Limit (Mins)</h3>
+                    <input type="number" id="customTimerInput" class="form-select" value="60" min="1">
+                </div>
+            </div>
+
+            <div class="modal-actions" style="display: flex; gap: 1rem; margin-top: 1rem;">
+                <button id="btnCancelCustomQBank" class="btn-secondary" style="flex: 1;">Cancel</button>
+                <button id="btnStartCustomQBank" class="btn-primary" style="flex: 1;">Start Custom Session</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Super Revision Modal -->
+    <div id="superRevisionModal" class="modal hidden">
+        <div class="modal-content" style="max-width: 600px;">
+            <h2 style="color: var(--primary); margin-bottom: 0.5rem;">Super Revision 🚀</h2>
+            <p style="margin-bottom: 1.5rem;">Revise questions you've missed. Select subjects to focus on.</p>
+
+            <div class="config-group">
+                <h3>Select Subjects</h3>
+                <div class="subject-chips" id="superSubjectChips">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+
+            <div class="modal-actions" style="display: flex; gap: 1rem; margin-top: 1rem;">
+                <button id="btnCancelSuperRevision" class="btn-secondary" style="flex: 1;">Cancel</button>
+                <button id="btnStartSuperRevision" class="btn-primary" style="flex: 1;">Start Revision</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=9"></script>
+</body>
+
+</html>
