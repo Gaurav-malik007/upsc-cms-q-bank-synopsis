@@ -31,7 +31,7 @@ const state = {
     timerInterval: null,
     timerSeconds: 0,
     isPremium: false,
-    questionsAttempted: 0
+    questionsAttempted: parseInt(localStorage.getItem('upsccms_attempts')) || 0
 };
 
 // Audio Assets
@@ -594,7 +594,8 @@ function initDashboard() {
     }
 
     allQuestions.forEach(q => {
-        const cleaned = cleanSubject(q.subject);
+        const rawSubject = q.subject || (q.tags && q.tags[0]) || '';
+        const cleaned = cleanSubject(rawSubject);
         if (MEDICAL_SUBJECTS.includes(cleaned)) subjectsSet.add(cleaned);
         if (q.year) years.add(q.year.toString());
     });
@@ -810,7 +811,7 @@ function filterQuestions() {
         const targetSubs = selSubs.map(s => s.toLowerCase().trim());
         source = source.filter(q => {
             // Split by common separators and clean each part
-            const raw = q.subject || '';
+            const raw = q.subject || (q.tags && q.tags[0]) || '';
             const qParts = raw.split(/[&/]/).map(p => cleanSubject(p).toLowerCase().trim());
             const qTopic = (q.topic || '').toLowerCase().trim();
             
@@ -833,7 +834,7 @@ function filterQuestions() {
         source = source.filter(q => 
             (q.question || '').toLowerCase().includes(unit) || 
             (q.topic || '').toLowerCase().includes(unit) ||
-            (q.subject || '').toLowerCase().includes(unit)
+            (q.subject || (q.tags && q.tags[0]) || '').toLowerCase().includes(unit)
         );
     }
 
@@ -990,7 +991,7 @@ function updateTimerUI() {
 
 function renderQuestion() {
     // FREEMIUM CHECK 
-    if (!state.isPremium && state.questionsAttempted >= 100) {
+    if (!state.isPremium && state.questionsAttempted >= 50) {
         el.paywall.modal.classList.remove('hidden');
         switchScreen('start');
         return; 
@@ -1002,12 +1003,15 @@ function renderQuestion() {
     el.quiz.qCurrent.textContent = state.currentIndex + 1;
     el.quiz.qTotal.textContent = state.questions.length;
     el.quiz.progress.style.width = `${((state.currentIndex + 1) / state.questions.length) * 100}%`;
-    el.quiz.qSubject.textContent = q.subject;
+    el.quiz.qSubject.textContent = q.subject || (q.tags && q.tags[0]) || 'General';
 
     updateBookmarkUI();
 
     // Content updates
-    el.quiz.qText.textContent = q.question || q.topic || '';
+    el.quiz.qText.innerHTML = q.question || q.topic || '';
+    if (q.isRepeated) {
+        el.quiz.qText.innerHTML += ' <span class="repeated-star" title="This question has appeared multiple times across years!">⭐</span>';
+    }
 
     if (q.image) {
         el.quiz.qImage.src = 'images/' + q.image;
@@ -1099,10 +1103,12 @@ function selectOption(opt) {
     }
 
     // Update global attempt count and sync
+    state.questionsAttempted++;
+    localStorage.setItem('upsccms_attempts', state.questionsAttempted);
+    
     if (state.user) {
-        state.questionsAttempted++;
         // Sync every 5 questions or when limit is reached
-        if (state.questionsAttempted % 5 === 0 || state.questionsAttempted >= 100) {
+        if (state.questionsAttempted % 5 === 0 || state.questionsAttempted >= 50) {
             syncQuestionsAttempted();
         }
     }
@@ -1159,15 +1165,18 @@ function finishQuiz() {
 
     // Update Supabase Questions Attempted (Freemium logic)
     const questionsJustAttempted = total - unanswered;
-    if (questionsJustAttempted > 0 && state.user) {
+    if (questionsJustAttempted > 0) {
         state.questionsAttempted += questionsJustAttempted;
+        localStorage.setItem('upsccms_attempts', state.questionsAttempted);
 
-        // Fire and forget update to Supabase
-        supabaseClient.from('profiles').update({
-            questions_attempted: state.questionsAttempted
-        }).eq('id', state.user.id).then(({ error }) => {
-            if (error) console.error("Error updating attempted count:", error);
-        });
+        if (state.user) {
+            // Fire and forget update to Supabase
+            supabaseClient.from('profiles').update({
+                questions_attempted: state.questionsAttempted
+            }).eq('id', state.user.id).then(({ error }) => {
+                if (error) console.error("Error updating attempted count:", error);
+            });
+        }
     }
 
     const percentage = total > 0 ? Math.round((correct / total) * 100) : 0;
