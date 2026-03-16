@@ -1,4 +1,4 @@
-const BACKEND_URL = 'http://localhost:5000'; // Default local backend
+const BACKEND_URL = 'https://oxtzjfuevsmparfzriwe.supabase.co/functions/v1/razorpay-v2';
 const SUPABASE_URL = 'https://oxtzjfuevsmparfzriwe.supabase.co';
 const SITE_URL = window.location.origin; // Automatically sets the correct site URL
 const SUPABASE_ANON_KEY = 'sb_publishable_XBptvECOL0hhP5UCI4yqFw_KI5l_VC7';
@@ -1344,10 +1344,10 @@ function setupScoreListeners() {
         try {
             // 1. Create order on the backend
             const amount = 600;
-            const res = await fetch(`${BACKEND_URL}/create-order`, {
+            const res = await fetch(BACKEND_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ amount, plan: planText.replace(' ', '_') })
+                body: JSON.stringify({ action: 'create-order', amount, plan: planText.replace(' ', '_') })
             });
             const orderInfo = await res.json();
 
@@ -1363,10 +1363,11 @@ function setupScoreListeners() {
                 order_id: orderInfo.id,
                 handler: async function (response) {
                     // 3. Verify payment on the backend
-                    const verifyRes = await fetch(`${BACKEND_URL}/verify-payment`, {
+                    const verifyRes = await fetch(BACKEND_URL, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
+                            action: 'verify-payment',
                             razorpay_payment_id: response.razorpay_payment_id,
                             razorpay_order_id: response.razorpay_order_id,
                             razorpay_signature: response.razorpay_signature
