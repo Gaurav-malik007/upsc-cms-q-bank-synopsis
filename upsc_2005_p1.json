@@ -1,0 +1,2147 @@
+[
+  {
+    "id": "UPSC_2005_P1_Q1",
+    "num": "1",
+    "question": "Keshan disease is due to deficiency of",
+    "options": {
+      "a": "Selenium",
+      "b": "Chromium",
+      "c": "Copper",
+      "d": "Manganese"
+    },
+    "answer": "a",
+    "explanation": "Deficiency of selenium has resulted in Keshan <br>disease (a form of cardiomyopathy endemic in China) and Kashin-Beck <br>disease (an endemic osteoarthritis of preadolescents in China). Other dietary <br>factors such as low intake of vitamin E, protein, and methionine are also <br>considered relevant to causation of Keshan disease.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q2",
+    "num": "2",
+    "question": "Which one of the following anti-TB drugs is contraindicated in  pregnancy?",
+    "options": {
+      "a": "Rifampicin",
+      "b": "Isoniazid",
+      "c": "Streptomycin",
+      "d": "Pyrazinamide"
+    },
+    "answer": "c",
+    "explanation": "Tuberculosis in pregnant women—HRZ and E are <br>safe to the fetus. Standard 6 months regimen 2 HRZ + 4 HR should be given. E <br>can be added during late but not early pregnancy.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q3",
+    "num": "3",
+    "question": "Which one of the following antituberculous drugs does not have  bactericidal action?",
+    "options": {
+      "a": "Rifamycin",
+      "b": "Para-aminosalicylic acid",
+      "c": "Pyrazinamide",
+      "d": "Isoniazid"
+    },
+    "answer": "b",
+    "explanation": "• Bactericidal drugs—rifampicin, INH, streptomycin, pyrazinamide. <br>• Bacteriostatic drugs—Ethambutol, thiacetazone, ethionamide, <br>prothionamide, PAS, cycloserine, kanamycin, viomycin, and <br>capreomycin. <br>• Sterilizing agent—rifampicin and pyrazinamide, isoniazid when <br>combined with rifampicin or pyrazinamide also acts as sterilizing agent.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q4",
+    "num": "4",
+    "question": "Which one of the following antifungal agents is used only intravenously?",
+    "options": {
+      "a": "Fluconazole",
+      "b": "Amphotericin",
+      "c": "Miconazole",
+      "d": "Ketoconazole"
+    },
+    "answer": "b",
+    "explanation": "Antifungal therapy: <br>1. Topical agents—(i) imidazoles and triazoles—imidazole for cutaneous <br>application (clotrimazole, econazole, ketoconazole, sulconazole, <br>oxiconazole, and miconazole), vaginal formulation of imidazoles <br>(miconazole, clotrimazole, tioconazole, and butoconazole), and triazole <br>(terconazole); (ii) polyene macrolide antibiotics—Nystatin and <br>amphotericin B suspensions effective in oral thrush and vaginal troches <br>in vulvovaginal candidiasis. Both nystatin and amphotericin B are <br>available in topical preparations for cutaneous candidiasis. <br>2. Systemic antifungals—griseofulvin, terbinafine, imidazoles, and <br>triazoles (fluconazole, itraconazole, voriconazole, and investigational <br>azoles posaconazole and ravuconazole are all triazoles), echinocandins, <br>amphotericin B, flucytosine.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q5",
+    "num": "5",
+    "question": "Which one of the following is not a feature of leptospirosis?",
+    "options": {
+      "a": "More than 10-fold rise of transaminases",
+      "b": "Elevated creatinine  phosphokinase",
+      "c": "Hepatorenal syndrome",
+      "d": "Thrombocytopenia"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q6",
+    "num": "6",
+    "question": "<strong>Match list I (Bacteria) with list II (Antibiotics) and select the correct \nanswer using the codes given below the lists:</strong><br><br>List I (Bacteria) <br>List II (Antibiotics) <br>A. Methicillin-resistant Staphylococcus aureus 1. Doxycycline <br>B. Pseudomonas aeruginosa <br>2. Vancomycin <br>C. Salmonella typhi <br>3. Piperacillin <br>D. Pasteurella pestis <br>4. Ceftriaxone",
+    "options": {
+      "a": "A-1, B-4, C-3, D-2",
+      "b": "A-2, B-3, C-4, D-1",
+      "c": "A-2, B-4, C-3, D-1",
+      "d": "A-1,  B-3, C-4, D-2"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q7",
+    "num": "7",
+    "question": "A four-fold increase in the titer obtained in Weil-Felix reaction is  diagnostic of",
+    "options": {
+      "a": "Rickettsial infection",
+      "b": "Fungal infection",
+      "c": "Spirochetal infection",
+      "d": "Viral  infection"
+    },
+    "answer": "a",
+    "explanation": "• Rickettsial bacteria are obligate intracellular parasites, Gram-negative <br>coccobacilli, and short bacilli that grow strictly in eukaryotic cells <br>(unable to grow in cell media). Tissue cultures are not satisfactory for <br>primary isolation. <br>• Rickettsial zoonoses are a group of specific communicable diseases <br>caused by rickettsial organisms and transmitted to man by arthropod <br>vectors (except Q fever). <br>• In Rocky Mountain spotted fever—red macular rash appears between <br>the second and sixth days of fever, first on the wrists and ankles and <br>then spreading centrally, it may become petechial, involvement of <br>palms and soles is characteristic. <br>• Scrub typhus—one typical feature is punched out ulcer covered with a <br>blackened scab (eschar) which indicates the location of the mite bite. <br>• Weil-Felix reaction—for serodiagnosis of typhus fever is a heterophile <br>agglutination test and is based on the sharing of a common antigen <br>between typhus rickettsiae and some strains of proteus bacilli. The <br>Weil-Felix reaction is a simple and useful test for the diagnosis of some <br>rickettsial diseases. The Ab appears rapidly during the course of <br>disease, reaches peak titers of up to 1:1,000 or 1:5,000 by 2nd week, <br>and declines rapidly during convalescence. It does not differentiate <br>between epidemic and endemic typhus and is of no value in rickettsial <br>pox, trench fever, and Q fever. [Mnemonic—QRST. Q fever, rickettsial <br>pox, scrub typhus, trench fever—all, negative with OX19, OX2, OXK <br>except in scrub fever positive with OXK]. <br>Weil-Felix reaction in rickettsial disease— <br>Disease <br>OX19 OX2 OXK <br>Epidemic typhus, endemic typhus <br>+++ + <br>- <br>Brill-Zinsser disease <br>± <br>- <br>- <br>Tick-borne spotted fever <br>++ <br>++ - <br>Rickettsial pox, trench fever, Q fever - <br>- <br>- <br>Scrub typhus <br>- <br>- <br>+++ <br>• Doxycycline is the drug of choice for specific treatment of all rickettsial <br>diseases. In pregnant female chloramphenicol may be given. Other <br>alternative for scrub typhus is azithromycin, endemic typhus is <br>ciprofloxacin, Josamycin for tick born spotted fever.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q8",
+    "num": "8",
+    "question": "Most common strain of E. coli giving rise to traveler's diarrhea is",
+    "options": {},
+    "answer": "c",
+    "explanation": "Diarrhea caused by E. coli—some strains of E. coli <br>which produce diarrhea from enterotoxins. Two types of E. coli enterotoxins <br>have been identified. (a) Heat labile—large molecular weight resembles the <br>cholera enterotoxin antigenically, acts by stimulating the adenyl cyclase <br>cyclic-adenosine monophosphate (cAMP) system. (b) Heat stable—low <br>molecular weight, nonantigenic, acts through cGMP. <br>• Enteropathogenic E. coli—infantile diarrhea (pediatric) <br>• Enterotoxicogenic E. coli—traveler's diarrhea (most common) <br>• Enteroinvasive E. coli—Invades the intestinal epithelium as do <br>dysentery bacilli, mistaken for shigellosis. Sereny test—positive <br>• Enterohemorrhagic E. coli—Hemorrhagic colitis and HUS. E. coli <br>0157:H7. Cytotoxin appears identical to shigella shiga toxin. Called <br>\"verotoxin\". It differs from the disease caused EIEC in that fever is not <br>always present, but hemorrhage is marked.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q9",
+    "num": "9",
+    "question": "Pathogenic organism in industrial exposure to animal hides, wool, bone,  and hair is",
+    "options": {
+      "a": "Bacillus anthracis",
+      "b": "Histoplasma capsulatum",
+      "c": "Chlamydia psittaci",
+      "d": "Yersinia pestis"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q10",
+    "num": "10",
+    "question": "Consider the following statements with reference to HIV:  1. HIV belongs to lentivirus group of the retrovirus family.  2. HIV-associated lymphomas are very slowly progressive.  3. HIV infection is diagnosed by using Western blot method.  4. Following an HIV infection, the person immediately shows the  symptoms of the disease.  5. The interaction between CD4 and HIV surface glycoprotein together  with chemokine coreceptors like CCR5 is responsible for HIV entry into  the cells. Which of the above statements are correct?",
+    "options": {
+      "a": "1, 2, and 4",
+      "b": "1, 3, and 5",
+      "c": "2, 4, and 5",
+      "d": "2, 3, and 5"
+    },
+    "answer": "b",
+    "explanation": "• Family Retroviridae has 3 subfamilies— <br>1. Oncoviridae—HTLV-1 <br>2. Lentiviridae—HIV <br>3. Spumaviridae—foamy virus CMDT: <br>• The virus can infect all cells expressing the T4 (CD4) antigen, which HIV <br>uses to attach to the cells. Chemokine receptors (CCR5 and CXCR4) are <br>important for virus import and individuals with CCR5 deletion are less <br>likely to become infected. <br>• The mean time of approximately 10 years between exposure and <br>development of AIDS. <br>• Non-Hodgkin's lymphoma in HIV-infected person tends to be very <br>aggressive, usually B-cell origin and characterized by diffuse large-cell <br>tumor and extranodal (>70%). <br>• ELISA—screening test, sensitivity >99.9%, 50% positive within 22 days <br>and 95% are positive within 6 weeks after transmission. Western blot—<br>confirmatory test specificity when combined with ELISA—>99.99%.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q11",
+    "num": "11",
+    "question": "Which one of the following is the most appropriate therapy for an  individual who has ingested an overdose of aspirin?",
+    "options": {
+      "a": "Acetazolamide",
+      "b": "Sodium bicarbonate",
+      "c": "Flumazenil",
+      "d": "Allopurinol"
+    },
+    "answer": "b",
+    "explanation": "Treatment of acute salicylate poisoning—<br>symptomatic and supportive. Most important is external cooling and IV fluid <br>with Na+, K+, HCO3-, and glucose according to need determined by repeated <br>monitoring. Gastric lavage to remove unabsorbed drug, forced alkaline <br>diuresis, or hemodialysis to remove absorbed drug is indicated in severe <br>cases. Blood transfusion and vitamin K should be given if bleeding occurs.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q12",
+    "num": "12",
+    "question": "The chances of acquiring HIV infection following needle prick is",
+    "options": {
+      "a": "0.3%",
+      "b": "3.0%",
+      "c": "0.03%",
+      "d": "0.003%"
+    },
+    "answer": "a",
+    "explanation": "HIV risk for health-care professionals: <br>• The risk of HIV transmission from a needle stick with blood from an <br>HIV-infected patient is about 0.3% and 0.09% after a mucous <br>membrane exposure. The risk is high with deep puncture, large inocula <br>with high viral load source. <br>• The risk of hepatitis B infection following similar type of exposure—<br>20% to 30%. <br>• Risk of acquiring HIV infection from illicit drug use with sharing of <br>needle from HIV-infected source is estimated 1:150. <br>• When blood transfusion from an HIV-infected donor occurs, the risk of <br>transmission is 95%. <br>• Heterosexual transmission is the most common mode of infection. <br>• Risk of HIV transmission with (i) receptive anal intercourse is between <br>1:100 and 1:30; (ii) with insertive anal intercourse 1:1,000; (iii) with <br>insertive vaginal intercourse 1:10,000; and (iv) with receptive fellatio <br>with ejaculation—1:1,000. <br>• With few exceptions, the level of CD4+ T cell in blood decreases <br>gradually and progressively in HIV-infected individuals. The level of <br>viremia generally increases as disease progresses. <br>• Postexposure prophylaxis for HIV refers to antiretroviral drug <br>treatment started within hours following accidental exposure.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q13",
+    "num": "13",
+    "question": "Which one of the following is not an AIDS-defining condition?",
+    "options": {
+      "a": "CMV retinitis",
+      "b": "Cryptococcal meningitis",
+      "c": "Pneumocystis carinii  pneumonia",
+      "d": "Hodgkin's lymphoma"
+    },
+    "answer": "d",
+    "explanation": "AIDS-defining disease <br>• Esophageal candidiasis <br>• Progressive multifocal <br>leukoencephalopathy <br>• Cryptococcal meningitis <br>• Recurrent non-typhi salmonella <br>septicemia <br>• Chronic cryptosporidial diarrhea <br>• Extrapulmonary coccidioidomycosis <br>• Cerebral toxoplasmosis <br>• Invasive cervical cancer <br>• CMV retinitis or colitis <br>• Extrapulmonary histoplasmosis <br>• Chronic mucocutaneous herpes <br>simplex <br>• Kaposi sarcoma <br>• Disseminated mycobacterium avium <br>intracellulare <br>• Primary cerebral lymphoma <br>• Pneumocystis carinii pneumonia <br>• HIV-associated wasting <br>• Non-Hodgkin's lymphoma <br>• HIV-associated dementia",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q14",
+    "num": "14",
+    "question": "Consider the following statements with reference to poliomyelitis:  1. The incubation period of poliomyelitis is 4 to 35 days, but usually it lies  between 7 and 14 days.  2. Tendon reflexes are normal but sensations are not intact.  3. Paralysis due to heavy metal poisoning can be easily distinguished  clinically from poliomyelitis.  4. The histopathologic findings in poliomyelitis include necrosis of  neuronal cells and perivascular cuffing.  5. The major advantages of oral polio vaccine include ease of  administration and secondary immunization of nonimmune contacts in  the population. Which of the above statements are correct?",
+    "options": {
+      "a": "1, 2, and 3",
+      "b": "1, 4, and 5",
+      "c": "3, 4, and 5",
+      "d": "2, 3, and 4"
+    },
+    "answer": "b",
+    "explanation": "• Incubation period of poliomyelitis—usually 7–14 days (range, 3–35 <br>days). <br>• Paralytic polio occurs in less than 1% of infections, asymmetrical flaccid <br>paralysis, characterized as descending, proximal muscle group are more <br>involved. Deep tendon reflexes are diminished before the onset of <br>paralysis. There is no sensory loss. <br>• Robbins pathology—acute cases show mononuclear cell, perivascular <br>cuffs, and neuronophagia of the anterior horn motor neurons of the <br>spinal cord. <br>• Advantages of OPV—(i) since given orally, it is easy to administer, (ii) <br>induces both humoral and intestinal immunity, (iii) antibody is quickly <br>produced in large proportion of vaccines, even in single dose elicits <br>(except in tropical countries) substantial immunity, (iv) vaccine excretes <br>the virus and so infects others who are also immunized thereby, (v) <br>useful in controlling epidemics, (vi) relatively inexpensive.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q15",
+    "num": "15",
+    "question": "Increased \"anion gap\" is a characteristic feature of",
+    "options": {
+      "a": "Hyperosmolar nonketotic diabetic coma",
+      "b": "Hypoglycemic coma",
+      "c": "Phenformin toxicity with coma",
+      "d": "Renal tubular acidosis"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q16",
+    "num": "16",
+    "question": "Assertion (A): Laparoscopy cholecystectomy is gold standard treatment  for cholelithiasis. Reason (R): Laparoscopy cholecystectomy is associated with  less bile duct injuries than open cholecystectomy.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c",
+    "explanation": "The rationale for laparoscopic cholecystectomy—(a) <br>good cosmetic result, (b) rapid healing of operative wound, (c) reduction of <br>hospital stay, (d) ability to return to work soon after surgery. Laparoscopic <br>cholecystectomy is the treatment of choice for gallstone disease. Main <br>drawback of the technique is the increased incidence of bile duct injury <br>compared with open cholecystectomy.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q17",
+    "num": "17",
+    "question": "Assertion (A): Patients with G6PD deficiency can be safely administered  ciprofloxacin for enteric fever. Reason (R): Ciprofloxacin is active against  Salmonella typhi.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d",
+    "explanation": "• Drugs causing hemolysis in subjects deficient in G6PD—antimalarials <br>(primaquine, pamaquine, chloroquine, dapsone), sulfonamides <br>(sulfamethoxazole), nitrofurans (nitrofurantoin, furazolidone), <br>analgesics (acetanilide), antipyretics (acetophenetidin, antipyrine), <br>miscellaneous (vitamin K, doxorubicin, methylene blue, nalidixic acid, <br>niridazole, phenazopyridine, naphthalene, probenecid, PAS), <br>chloramphenicol. <br>• Where resistance to multiple first-line oral drugs, especially in the <br>Indian subcontinent and southeast Asia, due to acquisition of plasmid <br>encoding inactivating β-lactamases and chloramphenicol <br>acetyltransferases, ceftriaxone or a 4-fluoroquinolones (ciprofloxacin or <br>ofloxacin) should be administered initially to adults more than 17 years <br>and ceftriaxone is best choice of children.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q18",
+    "num": "18",
+    "question": "Assertion (A): Angiotensin-converting enzyme (ACE) inhibitors are  indicated for patients of acute myocardial infarction with <40% left  ventricular ejection fraction. Reason (R): ACE inhibitors counteract ventricular  remodeling and improve survival in patients with reduced left ventricular  ejection fraction.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "explanation": "Long-term treatment with an ACE inhibitor (e.g., <br>captopril 50 mg, three times a day, enalapril 10 mg twice daily, or ramipril <br>2.5–5 mg twice daily) can counteract ventricular remodeling and prevent the <br>onset of heart failure and indicate that this form of therapy should be <br>considered in any patient who has sustained a myocardial infarction <br>complicated by transient heart failure or poor residual left ventricular <br>function (e.g., LV ejection fraction <40%).",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q19",
+    "num": "19",
+    "question": "Assertion (A): Clostridium invasion of a traumatized muscle affects the  whole of that muscle from origin to insertion, producing a foul-smelling  necrosis. Reason (R): Clostridium welchii (perfringens) is usually the cause in  about 20%, but other clostridia, including Clostridium histolyticum, etc., are  more important causes.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c",
+    "explanation": "Clostridial myonecrosis (gas gangrene)—<br>myonecrosis occurs when bacteria invade healthy muscle from adjacent <br>traumatized muscle or soft tissue. <br>• Causes—Clostridium perfringens—80%. <br>• Most other cases by C. novyi, C. septicum, C. histolyticum [mnemonic—<br>PNS has gas-forming organism].",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q20",
+    "num": "20",
+    "question": "Assertion (A): Terazosin is a β-adrenergic-blocking drug used in the  treatment of benign prostatic hypertrophy. Reason (R): It acts by relieving the  dynamic component of obstruction.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q21",
+    "num": "21",
+    "question": "Assertion (A): Optimum timing for prophylactic use of antibiotic is at the  time of induction of anesthesia. Reason (R): Maximum blood and tissue levels  of antibiotics are required during operation before contamination.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q22",
+    "num": "22",
+    "question": "Assertion (A): In spinal anesthesia, intrathecal injection of hyperbaric  bupivacaine produces hypotension. Reason (R): Following spinal anesthesia,  autonomic sympathetic blockade results in hypotension, necessitating prior  IV fluid loading.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q23",
+    "num": "23",
+    "question": "Assertion (A): The finding of prostate-specific antigen (PSA) >10  nmol/mL is suggestive of carcinoma of prostate. Reason (R): A decrease of  PSA to the normal range following hormonal ablation is a poor prognostic  sign.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "c",
+    "explanation": "• PSA—glycoprotein which is a serine protease. <br>• Normal upper limit—4 nmol/mL. <br>• Serum PSA level is the most sensitive test for early detection of <br>prostatic cancer and is elevated in approximately 65% of cases. <br>• Man with locally confined prostate cancer—<10 to 15 nmol/mL. <br>• Man with metastatic prostate cancer—>30 nmol/mL. PSA falls to low <br>levels after successful androgen ablation. PSA is a reliable marker for <br>the progress of advanced disease.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q24",
+    "num": "24",
+    "question": "Assertion (A): Rheumatoid arthritis patients often present with stiffness  and pain in neck and symptoms due to compression myelopathy. Reason (R):  Atlantoaxial subluxation and proximal migration of odontoid can be  encountered in rheumatoid arthritis patients.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q25",
+    "num": "25",
+    "question": "Assertion (A): Sharp (hypodermic) needles should be disposed off in a  rigid separate container. Reason (R): Percutaneous injuries are most common  mode of transmission of HIV in health-care workers in a hospital.",
+    "options": {
+      "a": "Both A and R are individually true and R is the correct explanation of A",
+      "b": "Both A and R are individually true and R is NOT the correct explanation of A",
+      "c": "A is true but R is false",
+      "d": "A is false but R is true"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q26",
+    "num": "26",
+    "question": "Bleeding from external auditory meatus in a case of head injury is  suggestive of",
+    "options": {
+      "a": "Anterior cranial fossa fracture",
+      "b": "Middle cranial fossa fracture",
+      "c": "Fracture  of occipital bone",
+      "d": "Posterior cranial fossa fracture"
+    },
+    "answer": "b",
+    "explanation": "• Anterior fossa fracture—subconjunctival hematoma, anosmia, <br>epistaxis, CSF rhinorrhea. Subgaleal hemorrhage—periorbital <br>ecchymoses (raccoon eye). <br>• Middle fossa fracture—CSF otorrhea or rhinorrhea via eustachian tube, <br>hemotympanum, ossicular disruption \"battle sign\" bruising behind ear <br>with petrous temporal base of skull fracture or VII and VIII cranial <br>nerve palsies. <br>• Fracture of posterior cranial fossa (S. Das clinical)—extravasation in <br>suboccipital region or ecchymosis posterior to mastoid. <br>• Battle's sign—9, 10, 11 cranial nerves occasionally injured.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q27",
+    "num": "27",
+    "question": "Arterial blood supply to Little's area is from the following except",
+    "options": {
+      "a": "Sphenopalatine artery",
+      "b": "Anterior ethmoidal artery",
+      "c": "Superior labial  artery",
+      "d": "Greater palatine artery"
+    },
+    "answer": "d",
+    "explanation": "Little's area—situated in anteroinferior part of <br>septum. This vascular area is a common site for epistaxis due to trauma or <br>nose-picking. This vascular plexus is called Kiesselbach's plexus. The vessels <br>which anastomose here—(a) anterior ethmoidal artery—septal branch, (b) <br>greater palatine artery—terminal branch, (c) sphenopalatine artery—septal <br>branch, (d) superior labial artery—septal branch. Greatest contribution from <br>sphenopalatine artery, which is often, termed \"artery of epistaxis\" and next <br>common—anterior ethmoid artery.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q28",
+    "num": "28",
+    "question": "The most common complication of chronic suppurative otitis media is",
+    "options": {
+      "a": "Meningitis",
+      "b": "Intracerebral abscess",
+      "c": "Cholesteatoma",
+      "d": "Conductive  deafness"
+    },
+    "answer": "b",
+    "explanation": "The most common intracranial complication of ear <br>disease—brain abscess [SK De—meningitis is the most common intracranial <br>complication]. <br>• Cerebellar abscess nearly always results from ear disease. <br>• CSOM is the most common cause of brain abscess. <br>• In children, 25% of brain abscess results from ear disease.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q29",
+    "num": "29",
+    "question": "Which one of the following drugs does not affect accommodation?",
+    "options": {
+      "a": "Pilocarpine",
+      "b": "Atropine",
+      "c": "Physostigmine",
+      "d": "Dopamine"
+    },
+    "answer": "d",
+    "explanation": "Action of cholinergic agonist on eye <br>1. Choline esters (acetylcholine, methacholine, carbachol, bethanechol) <br>and alkaloids (muscarine, pilocarpine, arecoline). Contraction of <br>circular muscle of iris—miosis. Contraction of ciliary muscle—spasm of <br>accommodation, outflow, ↓IOT. <br>2. Action of anticholinergic drugs (muscarinic receptor antagonists, <br>atropine, parasympatholytic) on eye—topical instillation of atropine <br>causes mydriasis, abolition of light reflex and cycloplegia lasting 7–10 <br>days. This results in photophobia, blurring of near vision. The ciliary <br>muscles recover earlier than sphincter pupillae. IOT rises in narrow <br>angle glaucoma. <br>3. Anticholinesterases (anti-ChEs) are agents that inhibit ChE, protect ACh <br>from hydrolysis—produce cholinergic effect in vivo and potentiate ACh <br>both in vivo and in vitro.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q30",
+    "num": "30",
+    "question": "Which one of the following is not an intravesical chemotherapeutic  agent?",
+    "options": {
+      "a": "Mitomycin C",
+      "b": "BCG",
+      "c": "Epirubicin",
+      "d": "Thiotepa"
+    },
+    "answer": "b",
+    "explanation": "<div class=\"table-container\"><table class=\"explanation-table\"><tr><td>TNM stage</td><td>Tumor involvement</td><td>Treatment</td><td>5-</td></tr><tr><td>year survival (%)</td><td></td><td>:---</td><td>:---</td><td>:---</td><td>:---</td><td></td><td>PTa</td><td>Mucosa only</td><td>Multiple low</td></tr><tr><td>dyscrasias)</td><td>90</td><td></td><td>pT1</td><td>Invasion of lamina propria</td><td>Endoscopic resection</td></tr><tr><td>(TOC for Cis)</td><td>70</td><td></td><td>T1</td><td>Superficial muscle</td><td></td><td></td><td></td><td>T2</td><td>Deep muscle (T2A)</td></tr><tr><td>perivesical fat/T2B</td><td>Radical cystectomy and pelvic lymphadenectomy,</td></tr><tr><td>presently being studied.</td><td>35-50 (T2b)</td></tr></table></div>",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q31",
+    "num": "31",
+    "question": "The best cosmetic results for large capillary (port wine) hemangiomas  are achieved by",
+    "options": {
+      "a": "Excision and split-thickness skin grafting",
+      "b": "Laser ablation",
+      "c": "Cryosurgery",
+      "d": "Tattooing"
+    },
+    "answer": "b",
+    "explanation": "Port wine stains—intradermal capillary <br>malformation, persist throughout life. TOC—pulsed tunable dye laser (585 <br>nm). Progressive ectasia of superficial vascular plexus, pink to purple, sharply <br>circumscribed, unilateral, commonly in head and neck, pebbly in consistency.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q32",
+    "num": "32",
+    "question": "A large toxic retrosternal goiter is best treated by",
+    "options": {
+      "a": "Antithyroid drugs",
+      "b": "Radioiodine",
+      "c": "Surgical resection",
+      "d": "Lugol's iodine"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q33",
+    "num": "33",
+    "question": "With reference to mammography, which one of the following  statements is correct?",
+    "options": {
+      "a": "A baseline study should be done for all women at age 30",
+      "b": "It uses less  radiation energy than a chest X-ray",
+      "c": "It should be part of the regular follow  up of a woman following therapy for unilateral breast cancer",
+      "d": "It provides  an effective substitute for biopsy of suspicious lesions"
+    },
+    "answer": "c",
+    "explanation": "<div class=\"table-container\"><table class=\"explanation-table\"><tr><td>Guideline of mammography screening</td><td>Guideline</td></tr><tr><td>Age</td><td></td><td>:---</td><td>:---</td><td></td><td>If significant risk factors</td><td>Before age 35 years</td><td></td><td>Baseline</td></tr><tr><td>study</td><td>Age 35–40 years</td><td></td><td>Repeat every 1–2 years</td><td>Age 40–49 years</td><td></td></tr><tr><td>Annual mammography</td><td>Age 50 years and older</td></tr></table></div><br>• Mammography is the gold standard for screening and can be sensitive<br>to calcification and tumor size of 1 mm in diameter. Biopsy is the only<br>definitive diagnosis for breast cancer.<br>• It delivers about 0.1 Gy of radiation per study. 17UV290/521, single X-<br>ray film—0.02–3.0 rad (1 rad = 0.01 Gy) “The mammography may<br>account to a dose of 500 milliroentgen compared with 30–40<br>milliroentgen dose received in X-ray.”",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q34",
+    "num": "34",
+    "question": "Which one of the following does not cause postsplenectomy  septicemia?",
+    "options": {
+      "a": "Streptococcus pneumoniae",
+      "b": "Neisseria meningitidis",
+      "c": "Haemophilus  influenzae",
+      "d": "Staphylococcus aureus"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q35",
+    "num": "35",
+    "question": "In a patient with spontaneous biliary enteric fistula, the most common  site of communication with gallbladder is",
+    "options": {
+      "a": "Duodenum",
+      "b": "Jejunum",
+      "c": "Ileum",
+      "d": "Transverse colon"
+    },
+    "answer": "a",
+    "explanation": "• Although fistulization from the gallbladder into any part of <br>gastrointestinal tract can occur, over half of the fistulas involve the <br>duodenum. <br>• Fistula formation and gallstone ileus—fistula into the duodenum is the <br>most common, followed in frequency by hepatic flexure of colon, <br>stomach or jejunum, abdominal wall, and renal pelvis.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q36",
+    "num": "36",
+    "question": "A 30-year-old lady is found to have gallstones. She is asymptomatic and  has never had any jaundice or dyspeptic symptoms in the past. The best  course of management for her would be",
+    "options": {
+      "a": "Dissolution therapy",
+      "b": "Extracorporeal lithotripsy",
+      "c": "Cholecystectomy",
+      "d": "To wait till she becomes asymptomatic"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q37",
+    "num": "37",
+    "question": "A 17-year-old boy is admitted to hospital after road traffic accident. Per  abdomen examination is normal. After adequate resuscitation, his pulse rate  is 80/minute and blood pressure is 110/70 mm Hg. Abdominal CT reveals 1  cm deep laceration in left lobe of the liver extending from the dome more  than half way through the parenchyma. Appropriate management at this  time would be",
+    "options": {
+      "a": "Conservative treatment",
+      "b": "Abdominal exploration and packing of hepatic  wound",
+      "c": "Abdominal exploration and ligation of left hepatic artery",
+      "d": "Left  hepatectomy"
+    },
+    "answer": "a",
+    "explanation": "• Blunt hepatic injuries in hemodynamic stable patients without other<br>indications for explorations best served by conservative approach.<br>• The classic criteria for nonoperative treatment of liver injuries include<br>hemodynamic stability, normal mental status, absence of a clear<br>indication for laparotomy such as peritoneal signs, low-grade liver<br>injuries (grades 1 and 3), and transfusion required for less than 2 units<br>of blood.<br><div class=\"table-container\"><table class=\"explanation-table\"><tr><td>Liver injury scale:</td><td>Grades</td><td>Type of injury</td><td>Description of injury</td><td></td><td>:---</td><td>:---</td></tr><tr><td>:---</td><td></td><td>I</td><td>Hematoma</td><td>Subcapsular, <10% surface area</td><td></td><td></td><td>Laceration</td></tr><tr><td>Capsular tear, <1 cm parenchymal depth</td><td></td><td>II</td><td>Hematoma</td><td>Subcapsular, 10–</td></tr><tr><td>50% surface area, intraparenchymal <10 cm in diameter</td><td></td><td></td><td>Laceration</td></tr><tr><td>Capsular tear, 1–3 cm parenchymal depth <10 cm in length</td><td></td><td>III</td><td>Hematoma</td></tr><tr><td>Subcapsular, >50% surface area of ruptured subcapsular or parenchymal</td></tr><tr><td>hematoma, intraparenchymal hematoma >10 cm or expanding</td><td></td><td></td></tr><tr><td>Laceration</td><td>3 cm parenchymal depth</td><td></td><td>IV</td><td>Laceration</td><td>Parenchymal</td></tr><tr><td>disruption involving 25–75% hepatic lobe or 1–3 couinaud segments</td><td></td><td>V</td></tr><tr><td>Laceration</td><td>Parenchymal disruption involving >75% of hepatic lobe or >3</td></tr><tr><td>couinaud segments within a single lobe</td><td></td><td></td><td>Vascular</td><td>Juxtahepatic venous</td></tr><tr><td>injuries (i.e., retrohepatic vena cava/central major hepatic veins)</td><td></td><td>VI</td></tr><tr><td>Vascular</td><td>Hepatic avulsion</td></tr></table></div>",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q38",
+    "num": "38",
+    "question": "Consider the following:  1. Alcohol  2. Cholelithiasis  3. Insulinoma  4. Hyperparathyroidism Which of the above are etiological factors for  acute pancreatitis?",
+    "options": {
+      "a": "1 and 3",
+      "b": "1, 2, and 3",
+      "c": "1, 2, and 4",
+      "d": "2 and 4"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q39",
+    "num": "39",
+    "question": "Complications of chronic pancreatitis include the following except",
+    "options": {
+      "a": "Portal hypertension",
+      "b": "Obstructive jaundice",
+      "c": "Duodenal obstruction",
+      "d": "Renal artery aneurysm"
+    },
+    "answer": "d",
+    "explanation": "Complications of chronic pancreatitis: <br>• Pseudocysts and pancreatic ascites <br>• Extrahepatic obstructive jaundice due to benign stricture of common <br>bile duct <br>• Duodenal stenosis <br>• Portal and splenic vein thrombosis leading to segmental portal <br>hypertension and gastric varices <br>• Peptic ulcer.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q40",
+    "num": "40",
+    "question": "In which one of the following conditions is gas under diaphragm not  seen?",
+    "options": {
+      "a": "Perforated duodenal ulcer",
+      "b": "Typhoid perforation",
+      "c": "After laparotomy",
+      "d": "Spontaneous rupture of esophagus"
+    },
+    "answer": "d",
+    "explanation": "Pneumoperitoneum: (gas under diaphragm) <br>1. Erect—free gas under diaphragm or liver. Can detect 10 mL of air. Can <br>take 10 minutes for all gas to rise. <br>2. Supine—gas outlines both sides of bowel wall, which then appears as a <br>white line. Causes: <br>3. Perforation—(a) peptic ulcer perforation usually on right side (30% do <br>not have free air visible), (b) inflammation—diverticulitis, appendicitis, <br>toxic megacolon, necrotizing enterocolitis, (c) infraction, (d) malignant <br>neoplasm, (e) obstruction, (f) pneumatosis coli (cysts may rupture) <br>4. Iatrogenic (surgery: peritoneal dialysis) may take 3 weeks to reabsorb <br>(faster in obese and children) <br>5. Pneumomediastinum <br>6. Introduction per vaginum (douching) <br>7. Pneumothorax—due to congenital pleuroperitoneal fistula <br>8. Idiopathic.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q41",
+    "num": "41",
+    "question": "An old man presenting to the emergency following a bout of prolonged  vomiting with excessive hematemesis following alcohol ingestion is likely to  suffer from",
+    "options": {
+      "a": "Mallory-Weiss syndrome",
+      "b": "Esophageal varices",
+      "c": "Gastric cancer",
+      "d": "Bleeding disorder"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q42",
+    "num": "42",
+    "question": "The structures removed, while carrying out radical gastrectomy for a 2 x  2 cm antral adenocarcinoma, would include the following, except",
+    "options": {
+      "a": "Distal two-thirds of stomach with a centimeter cuff of duodenum",
+      "b": "Lesser and greater omentum",
+      "c": "Lymph nodes along left and right gastric  common hepatic and splenic arteries",
+      "d": "Spleen"
+    },
+    "answer": "d",
+    "explanation": "A subtotal gastrectomy is the treatment of choice <br>for patients with distal carcinoma, while total or near total gastrectomy is <br>required for more proximal tumors. <br>Total gastrectomy <br>Subtotal gastrectomy <br>Indication—growth involving upper or middle two-<br>thirds of stomach <br>Indication—distally <br>placed tumors of <br>stomach <br>Structure removed <br> • Stomach en block <br> • <br>Greater and lesser omentum <br> • LN around celiac <br>axis <br> • Spleen is preserved (the traditional radical <br>gastrectomy removed spleen and distal pancreas) but <br>its hilar LN, splenic vessels are mobilized from left to <br>right <br>• Similar to total <br>gastrectomy except <br>proximal stomach is <br>preserved",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q43",
+    "num": "43",
+    "question": "A 1 cm x 1 cm squamous cell carcinoma of anal canal is best treated  initially by",
+    "options": {
+      "a": "Abdominoperineal resection",
+      "b": "Localized resection followed by  irradiation",
+      "c": "Proximal colostomy followed by interstitial irradiation",
+      "d": "Chemoradiotherapy"
+    },
+    "answer": "d",
+    "explanation": "• Treatment of tumors of anal verge—for squamous cell lesion—wide <br>local excision leaving a margin of at least 2.5 cm of tissue + if inguinal <br>nodes involved, block dissection removal. <br>• Treatment of tumors of anal canal—a combination of chemotherapy <br>and radiotherapy, so-called \"chemoradiation\"—preferred initial <br>therapy. Chemotherapy for 1 week (5 FU + mitomycin or bleomycin + <br>cisplantinum + adriamycin) followed by radiotherapy given over 3–7 <br>weeks, if 4–6 weeks after cessation of treatment, obvious tumor <br>remaining → abdominoperineal excision.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q44",
+    "num": "44",
+    "question": "The most useful investigation for profuse lower gastrointestinal bleeding  is",
+    "options": {
+      "a": "Proctosigmoidoscopy",
+      "b": "Colonoscopy",
+      "c": "Double contrast barium enema",
+      "d": "Selective arteriography"
+    },
+    "answer": "d",
+    "explanation": "Acute lower GI bleeding flow: If No hemodynamic <br>instability: -> Age <40 years: Flexible Sigmoidoscopy (Colonoscopy if familial <br>colon cancer, iron deficiency anemia, copious bleeding) -> Age >40 years: <br>Colonoscopy. If bleeding stops, consider enteroscopy, video capsule, <br>enteroclysis, angiography if major blood loss. If Hemodynamic instability: -> <br>Upper GI endoscopy to rule out an upper GI source -> Colonoscopy. -> If Mild <br>to moderate bleeding persists: Enteroscopy -> Video capsule -> Consider <br>intraoperative endoscopy. -> If Severe bleeding persists: Angiography (Tc-RBC <br>scan may be done first) -> Enteroscopy -> Intraoperative endoscopy.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q45",
+    "num": "45",
+    "question": "The confirmatory diagnostic feature of congenital atresia of the  esophagus is",
+    "options": {
+      "a": "Regurgitation of feed",
+      "b": "Continuous pouring of saliva",
+      "c": "Attacks of  coughing and cyanosis",
+      "d": "Obstruction to passage of a nasogastric tube about  10 cm from the lips"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q46",
+    "num": "46",
+    "question": "<strong>Match list I (investigation results) with list II (diagnosis) and select the \ncorrect answer using the codes given below the lists:</strong><br><br>List I (Investigation results) <br>List II (Diagnosis) <br>A. Increased serum calcium and normal serum <br>alkaline phosphatase <br>1. <br>Hyperparathyroidism <br>B. Increased serum calcium and alkaline phosphatase 2. Osteomalacia <br>C. Decreased serum calcium and increased serum <br>alkaline phosphatase <br>3. Multiple myeloma <br>D. Normal serum calcium and increased serum <br>alkaline phosphatase <br>4. Sclerosing <br>cholangitis",
+    "options": {
+      "a": "A-4, B-2, C-1, D-3",
+      "b": "A-3, B-2, C-1, D-4",
+      "c": "A-4, B-1, C-2, D-3",
+      "d": "A-3,  B-1, C-2, D-4"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q47",
+    "num": "47",
+    "question": "Respiratory alkalosis is commonly seen in",
+    "options": {
+      "a": "Morphine poisoning",
+      "b": "Ethanol poisoning",
+      "c": "Salicylate poisoning",
+      "d": "Barbiturate poisoning"
+    },
+    "answer": "c",
+    "explanation": "Acid-base and electrolyte balance of aspirin—<br>salicylates stimulate respiratory center → hyperventilation and hyperpnea, → <br>respiratory alkalosis + compensated alkaluria. Both potassium and sodium <br>bicarbonates are excreted in urine. On still higher doses → respiratory <br>depression → CO2 retention → respiratory acidosis. To this is added <br>dissociated salicylic acid as well as metabolic acids (lactic, pyruvic, <br>acetoacetic) which are produced in excess + metabolically derived sulfuric <br>and phosphoric acid which retained due to depression of renal function → <br>uncompensated metabolic acidosis (since plasma HCO3 already low). Most <br>children manifest this phase during salicylate poisoning while in adults it is <br>seen in late stages of poisoning only.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q48",
+    "num": "48",
+    "question": "Which one of the following is the most common site of Berry aneurysm?",
+    "options": {
+      "a": "Vertebrobasilar artery",
+      "b": "Origin of posterior communication artery",
+      "c": "Anterior communicating artery",
+      "d": "Anterior choroidal artery"
+    },
+    "answer": "c",
+    "explanation": "Causes of subarachnoid hemorrhage: <br>Rupture aneurysm <br>75% <br>Sites <br>% <br>Anterior communicating artery <br>35 <br>Posterior communicating artery <br>30 <br>Middle cerebral artery <br>25 <br>Others <br>10 <br>• AV malformation <br>5% <br>• Hypertensive intracerebral hemorrhage 5% <br>• Miscellaneous <br>5–8% <br>• No cause <br>7–10%",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q49",
+    "num": "49",
+    "question": "Which one of the following investigations is most sensitive for early  diagnosis of diabetic nephropathy?",
+    "options": {
+      "a": "Serum creatinine level",
+      "b": "Creatinine clearance",
+      "c": "Glucose tolerance test",
+      "d": "Microalbuminuria"
+    },
+    "answer": "d",
+    "explanation": "First stage of diabetic nephropathy is hyperfiltration <br>with an increase in GFR followed by development of microalbuminuria (30–<br>150 μg/min or 30–300 mg/day).",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q50",
+    "num": "50",
+    "question": "Mechanism of action of sildenafil is",
+    "options": {
+      "a": "α-adrenoceptor antagonist",
+      "b": "Dopamine agonist",
+      "c": "Phosphodiesterase  type 5 inhibitor",
+      "d": "Direct action on vascular smooth muscles"
+    },
+    "answer": "c",
+    "explanation": "Sildenafil—orally active drug for treatment of <br>erectile dysfunction. <br>1. Mode of action—selectively inhibiting phosphodiesterase-5 (PDE-5). <br>Since NO causes smooth muscle relaxation through cGMP, inhibition of <br>PDE-5 (the cGMP degrading isoenzyme in cavernosal and vascular <br>smooth muscle) by sildenafil enhances NO action, especially in corpus <br>cavernosum and increases penile tumescence during sexual arousal. <br>2. Pharmacokinetics—oral absorption 40%, peak blood level attained in 1 <br>hour. <br>3. Adverse effect—headache, nasal congestion, dizziness, flushing, fall in <br>BP, loose motion, impairment of color discrimination. <br>4. Contraindications—coronary heart disease and those taking nitrates. <br>5. Cautions—liver disease, kidney disease, peptic ulcer, bleeding disorder, <br>patient of leukemia, sickle-cell anemia, myeloma. <br>6. Drug interaction—because it is metabolized by CYP3A4, inhibitors like <br>erythromycin, ketoconazole, verapamil, and cimetidine potentiate its <br>action.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q51",
+    "num": "51",
+    "question": "Megaloblastic anemia may be caused by the following except",
+    "options": {
+      "a": "Phenytoin",
+      "b": "Amoxicillin",
+      "c": "Methotrexate",
+      "d": "Pyrimethamine"
+    },
+    "answer": "b",
+    "explanation": "Drugs causing megaloblastic anemia: <br>1. Direct inhibitors of DNA synthesis—purine analogs (6-thioguanine, <br>azathioprine, 6-mercaptopurine), pyrimidine analogs (5-fluorouracil, <br>cytosine arabinoside), hydroxyurea, procarbazine, zidovudine. <br>2. Folate antagonists—methotrexate, pentamidine, trimethoprim, <br>triamterene, pyrimethamine. <br>3. Others—nitrous oxide, phenytoin, primidone, phenobarbitone.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q52",
+    "num": "52",
+    "question": "Which one of the following factors does the prothrombin time not  depend upon?",
+    "options": {
+      "a": "V",
+      "b": "VII",
+      "c": "IX",
+      "d": "X"
+    },
+    "answer": "c",
+    "explanation": "• Prothrombin time (PT) is an indicator of extrinsic and common pathway <br>of coagulation. <br>• Activated partial thromboplastin time (APTT) is a measure of intrinsic <br>and common pathway. <br>• PT and APTT—both are prolonged when there is defect in common <br>pathway, liver dysfunction, DIC. <br>• Diagnostic approach to bleeding disorders by laboratory investigation— <br>Increased bleeding time <br>Increased clotting time <br>a. Platelet count decreased—<br>ITP, purpura secondary to <br>asplenia, leukemia, drugs <br> <br>b. Platelet count normal—<br>anaphylactoid purpura <br>a. Only PT prolonged—factor VII deficiency <br><br> b. Only APTT prolonged—deficiency of <br>factors VIII, IX, XI, XII, and Von Willebrand’s <br>disease <br> c. Both PT and APTT <br>prolonged—vitamin K deficiency, severe liver <br>disease, deficiency of factors V and X",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q53",
+    "num": "53",
+    "question": "Massive splenomegaly is a feature of the following conditions, except",
+    "options": {
+      "a": "Chronic myeloid leukemia",
+      "b": "Myelofibrosis",
+      "c": "Sickle-cell anemia",
+      "d": "Tropical splenomegaly syndrome"
+    },
+    "answer": "c",
+    "explanation": "Causes of massive splenomegaly—chronic <br>myelogenous leukemia (CML), lymphoma, hairy cell leukemia, myelofibrosis <br>with myeloid metaplasia, chronic malaria, chronic kala-azar, polycythemia <br>vera, Gaucher's disease, chronic lymphocytic leukemia (CLL), sarcoidosis, <br>autoimmune hemolytic anemia, diffuse splenic hemangiomatosis, <br>extrahepatic portal hypertension.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q54",
+    "num": "54",
+    "question": "Which one of the following is not a component of Horner's syndrome?",
+    "options": {
+      "a": "Enophthalmos",
+      "b": "Partial ptosis",
+      "c": "Dilated pupil",
+      "d": "Impaired facial  sweating"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q55",
+    "num": "55",
+    "question": "Which one of the following neurological conditions is not inherited in  autosomal dominant pattern?",
+    "options": {
+      "a": "Neurofibromatosis",
+      "b": "Friedreich's ataxia",
+      "c": "Hereditary spherocytosis",
+      "d": "Marfan's syndrome"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q56",
+    "num": "56",
+    "question": "Guillain-Barre syndrome is characterized by the presence of the  following except",
+    "options": {
+      "a": "Quadriparesis",
+      "b": "Depressed/absent deep tendon jerks",
+      "c": "Objective  evidence of sensory loss",
+      "d": "Albumino-cytological dissociation in CSF"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q57",
+    "num": "57",
+    "question": "Which one of the following is not a feature of Sturge-Weber syndrome  (encephalotrigeminal syndrome)?",
+    "options": {
+      "a": "\"Railroad track\" calcification",
+      "b": "Focal convulsion",
+      "c": "Hemiatrophy of brain",
+      "d": "Empty sella"
+    },
+    "answer": "d",
+    "explanation": "Sturge-Weber syndrome—when a port wine stain is <br>localized to trigeminal area of face, especially around the eyelids, the <br>diagnosis of Sturge-Weber syndrome (ipsilateral glaucoma, leptomeningeal <br>venous angioma, mental retardation, seizures, hemiparesis contralateral to <br>facial lesion, intracranial calcification) must be considered. <br>• Facial nevus—present at birth, unilateral and always involves upper <br>face and eyelids. <br>• Seizure—focal tonic-clonic, contralateral to facial nevus, mostly during <br>1st year of life (Jacksonian epilepsy). <br>• Skull radiograph—intracranial calcification (serpentine or railroad track <br>appearance) in occipitoparietal region. <br>• MRI—most sensitive for demonstrating cerebral lesions.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q58",
+    "num": "58",
+    "question": "<strong>Match list I (drugs) with list II (side effects) and select the correct answer \nusing the codes given below the lists:</strong><br><br>List I (Drugs) <br>List II (Side effects) <br>A. Amiodarone 1. Diffuse lung injury <br>B. Sedatives <br>2. Respiratory depression <br>C. Sulfonamides 3. Pulmonary eosinophilia <br>D. Azathioprine 4. Opportunistic pulmonary infection <br>E. Tartrazine <br>5. Asthma with rhinitis",
+    "options": {
+      "a": "A-1, B-2, C-3, D-4, E-5",
+      "b": "A-1, B-3, C-2, D-4, E-5",
+      "c": "A-4, B-2, C-3, D-5,  E-1",
+      "d": "A-4, B-3, C-2, D-5, E-1"
+    },
+    "answer": "a",
+    "explanation": "Drug-induced eosinophilic pneumonia—<br>nitrofurantoin, sulfonamides, penicillin, chlorpropamide, thiazides, tricyclic <br>antidepressants, hydralazine, mephenesin, mecamylamine, nickel, gold salts, <br>INH, PAS. Pharmacologic stimuli of asthma—induction of acute episodes with <br>aspirin, tetrazine, β-adrenergic antagonists, sulfating agents, and <br>acetylcysteine. Aspirin-sensitive respiratory syndrome primarily affects <br>adults, usually begins with perineal vasomotor rhinitis that is followed by a <br>hyperplastic rhinosinusitis with nasal polyps. There is cross-reactivity <br>between aspirin and other NSAIDs (indomethacin, fenoprofen, naproxen, <br>zomepirac sodium, ibuprofen, mefenamic acid, and phenylbutazone). <br>• Drugs causing pleural effusions and pleural thickening—hydralazine, <br>INH, methysergide. <br>• Interstitial pneumonitis/fibrosis (CMDT, 44th Ed., Pg. 298) bleomycin, <br>nitrofurantoin, busulfan, cyclophosphamide, methysergide, phenytoin <br>[Davidson: pulmonary fibrosis—bleomycin, methotrexate, amiodarone, <br>nitrofurantoin]. <br>• Pulmonary infiltration without eosinophilia—amitriptyline, <br>azathioprine, amiodarone.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q59",
+    "num": "59",
+    "question": "Amyloidosis of kidney may be seen in the following except",
+    "options": {
+      "a": "Enteric fever",
+      "b": "Ulcerative colitis",
+      "c": "Suppurative lung disease",
+      "d": "Hansen's  disease"
+    },
+    "answer": "a",
+    "explanation": "Secondary (reactive) systemic amyloidosis: <br>• Protein type—AA type <br>• Organs commonly involved—liver, spleen, kidney, adrenals. <br>• Occurs in chronic infections (suppurative), tuberculosis, bronchiectasis, <br>chronic osteomyelitis, chronic pyelonephritis, leprosy, autoimmune <br>disorders (RA, dermatomyositis, scleroderma), inflammatory bowel <br>disease (ulcerative colitis and Crohn's disease), some tumors (renal cell <br>carcinoma, Hodgkin's disease).",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q60",
+    "num": "60",
+    "question": "The most specific marker of renal function is",
+    "options": {
+      "a": "Creatinine clearance",
+      "b": "Inulin clearance",
+      "c": "Blood urea",
+      "d": "Serum  creatinine"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q61",
+    "num": "61",
+    "question": "Forty eight hours after sustaining a blunt abdominal injury, a 15-year-old  boy presents with hematuria and pain in the left side of abdomen. On  examination, he has a pulse rate of 96/minute with a BP of 110/70 mm Hg.  His Hb is 10.8 g% with a PCV of 31%. The blood urea is 32 mg%. Abdominal  examination revealed tenderness in left lumbar region but no palpable mass.  The most appropriate investigation to diagnose and find the extent of renal  injury would be",
+    "options": {
+      "a": "Sonographic evaluation of abdomen",
+      "b": "Intravenous pyelography",
+      "c": "Contrast-enhanced computed tomography",
+      "d": "MR urography"
+    },
+    "answer": "c",
+    "explanation": "Abdominal blunt trauma: -> No blood at meatus -> <br>Normal -> May pass Foley's catheter. -> Hematuria -> Gross hematuria -> CT <br>(or IVP) and cystogram. -> No hematuria (dipstick +ve or >5 RBC/HPF) -> With <br>shock -> CT (or IVP) (and cystogram with pelvic fracture and gross hematuria). <br>-> Blood at meatus -> Unable to pass catheter -> RUG (retrograde <br>urethrogram) -> Urology consult.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q62",
+    "num": "62",
+    "question": "The immediate management of tension pneumothorax is",
+    "options": {
+      "a": "Endotracheal intubation and ventilation",
+      "b": "Tube thoracostomy",
+      "c": "Insertion of wide bore needle in pleural cavity",
+      "d": "Urgent tracheostomy"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q63",
+    "num": "63",
+    "question": "The most reliable urine specimen is obtained by",
+    "options": {
+      "a": "Urethral catheterization",
+      "b": "Catheter aspiration",
+      "c": "Midstream voiding",
+      "d": "Suprapubic aspiration"
+    },
+    "answer": "d",
+    "explanation": "Methods for obtaining urine samples: (a) Midstream <br>urine sample—satisfactory in toilet trained children and circumcised boys, <br>usually reflects periurethral and preputial organisms. (b) Catheter <br>aspiration—sensitivity 95%. (c) Suprapubic aspiration—best method to collect <br>urine specimen for culture. It is most reliable method. The sensitivity is 99%.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q64",
+    "num": "64",
+    "question": "In a young patient, transverse fracture of patella is best treated by",
+    "options": {
+      "a": "Patellectomy",
+      "b": "Application of cylindrical POP cast",
+      "c": "Strict bed rest with  quadriceps exercises",
+      "d": "Tension band wiring followed by POP cast"
+    },
+    "answer": "d",
+    "explanation": "Treatment of fracture of the patella: <br>1. Undisplaced fracture—plaster (cylinder) cast extending from groin to <br>above malleoli with full knee extension for 3 weeks, followed by <br>physiotherapy. <br>2. Clean break with separation of fragments (two part fracture). <br>o Operation consists of reduction of fragments, fixing with tension-<br>band wiring (TBW), and repair of extensor retinaculum. <br>o Patellectomy excises the fragments if it is not possible to achieve <br>accurate reduction of the fragments and repairs extensor <br>retinaculae. <br>o Partial patellectomy—in case where one of the fragments <br>constitute only one of the poles of patella, it is excised. The <br>major fragment is preserved and extensor retinaculae repaired, <br>such operation followed by 4-6 weeks cyclinder cast. <br>3. Comminuted fracture with displacement—best to excise the patella, <br>irrespective of age.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q65",
+    "num": "65",
+    "question": "Osteosarcoma arises from",
+    "options": {
+      "a": "Epiphysis",
+      "b": "Diaphysis",
+      "c": "Metaphysis",
+      "d": "Medulla"
+    },
+    "answer": "c",
+    "explanation": "Mnemonic: <br>• ECG—Epiphysis—chondroblastoma, giant cell tumor (osteoclastoma). <br>• DEF—Diaphysis—Ewing's sarcoma, enchondroma, fibrous dysplasia. <br>• Osteo—Blastoma, chondroma, sarcoma from metaphysis, clastoma <br>(epiphysis), osteoma (diphysis).",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q66",
+    "num": "66",
+    "question": "The most common histological type seen in bronchogenic carcinoma is",
+    "options": {
+      "a": "Small cell carcinoma",
+      "b": "Large cell carcinoma",
+      "c": "Squamous cell carcinoma",
+      "d": "Adenocarcinoma"
+    },
+    "answer": "d",
+    "explanation": "• Adenocarcinoma- most common histological type, common histological <br>type in young patients and in females, metastases to opposite lung, <br>peripheral distribution. <br>• Squamous cell carcinoma- most common histological type in India, <br>cavitate, central distribution (pancoast tumor is peripheral tumor of <br>squamous variety), hypercalcemia due to PTH, best prognosis. <br>• Small cell lung cancers- known as oat cell cancers because of the <br>packed nature of small dense cells. They are a type of neuroendocrine <br>tumour, having early metastasis. The pattern of disease, the prognosis <br>and the results of treatment for small cell (also known as oat cell) <br>carcinoma differ from all other types sufficiently for these to be <br>managed differently on the basis of the histological classification. <br>• C/F- Clinical features depend on: the site of the lesion, invasion of <br>neighbouring structures, extent of metastases. Hemoptysis is present <br>in<50%, cough is most common non specific complain. Cigarette <br>smoking is major risk factor for lung carcinoma and accounts for 85-<br>95% of all cases. To a lesser extent, atmospheric pollution and certain <br>occupations (mining of radioactive ore and chromium) contribute.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q67",
+    "num": "67",
+    "question": "Testicular tumor most sensitive to radiation is",
+    "options": {
+      "a": "Teratoma",
+      "b": "Lymphoma",
+      "c": "Mixed germ cell tumor",
+      "d": "Seminoma"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q68",
+    "num": "68",
+    "question": "The most accepted modality of treatment of -2D myopia in a 13-year-old  girl is",
+    "options": {
+      "a": "Spectacles",
+      "b": "Excimer laser",
+      "c": "Contact lens",
+      "d": "Radial keratotomy"
+    },
+    "answer": "a",
+    "explanation": "Simple myopia is the most common type of myopia <br>which progresses during childhood and adolescence and seldom exceeds 5-<br>6D. It generally stops by the age of 21. Treatment of myopia: <br>• Concave spherical glass <br>• Contact lens—ideal substitute in high myopia <br>• Surgery—(i) radial keratotomy (RK)—for low degree myopia only (–2 to <br>–6 D), (ii) LASIK—for correcting myopia of –6 to –30 D, (iii) <br>photorefractive keratectomy—good result low degree (–2 to –6 D) <br>myopia, (iv) automated lamellar keratectomy (ALK) can correct myopia <br>of –6 to –32 D.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q69",
+    "num": "69",
+    "question": "The most common cause of vocal cord palsy is",
+    "options": {
+      "a": "Total thyroidectomy",
+      "b": "Bronchogenic carcinoma",
+      "c": "Aneurysm of aorta",
+      "d": "Tubercular lymph nodes"
+    },
+    "answer": "b",
+    "explanation": "Vocal fold palsy—unilateral left vocal fold palsy is <br>the most common as a consequence of the long intrathoracic course of left <br>recurrent laryngeal nerve which arches around the aorta and may be <br>commonly involved in inflammatory and neoplastic conditions involving the <br>left hilum. Left vocal cord palsy should be considered to be due to a <br>carcinoma of lung until proved otherwise. Bilateral recurrent laryngeal nerve <br>palsy is an occasional and very serious complication of thyroidectomy as <br>acute dyspnea occurs as a result of paramedian position of both vocal folds <br>which reduce the airway to 2–3 mm and get sucked during inspiration. Right <br>nerve more commonly involved in thyroid surgery, while passing through <br>inferior thyroid vessels (S.K.De).",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q70",
+    "num": "70",
+    "question": "Earliest sign seen in acoustic neuroma is",
+    "options": {
+      "a": "Facial weakness",
+      "b": "Unilateral deafness",
+      "c": "Reduced corneal reflex",
+      "d": "Cerebellar signs"
+    },
+    "answer": "b",
+    "explanation": "Acoustic neuroma—Schwannoma of vestibular <br>division of VIIIth nerve is most common followed by meningiomas. It <br>comprises 80% of all cerebellopontine angle tumors. <br>• Clinical features—early acoustic phase—the early symptoms are <br>unilateral sensorineural hearing loss or unilateral tinnitus or both. <br>o In advanced case—5th nerve involvement is earliest, pain and <br>tingling along trigeminal nerve, diminished corneal reflex. <br>• Diagnosis—MRI investigation of choice, recruitment test is negative, <br>BERA—most modern diagnostic test.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q71",
+    "num": "71",
+    "question": "In an arterial blood sample, normal level of standard bicarbonate is",
+    "options": {
+      "a": "16–18 mmol/L",
+      "b": "19–21 mmol/L",
+      "c": "22–25 mmol/L",
+      "d": "26–30 mmol/L"
+    },
+    "answer": "c",
+    "explanation": "<div class=\"table-container\"><table class=\"explanation-table\"><tr><td>Constituent arterial blood gases</td><td>SI units</td></tr><tr><td>Conventional units</td><td></td><td>:---</td><td>:---</td><td>:---</td><td></td><td>Bicarbonate (HCO3)</td><td>21–29 mmol/L</td></tr><tr><td>21–29 mEq/L</td><td></td><td>Hydrogen ion H+</td><td>37-45 nmol/L</td><td>pH 7.35 -7.43</td><td></td><td>pCO2</td></tr><tr><td>4.5–6.0 KPa</td><td>34–45 mmHg</td><td></td><td>Oxygen saturation</td><td>>97%</td><td></td><td></td><td>pO2</td><td>12–15</td></tr><tr><td>KPa</td><td>90–113 mmHg</td></tr></table></div>",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q72",
+    "num": "72",
+    "question": "Reversal of nondepolarizing muscle relaxant's action is done with the  help of",
+    "options": {
+      "a": "Atropine and neostigmine",
+      "b": "Atropine and glycopyrrolate",
+      "c": "Atropine and  vecuronium",
+      "d": "Neostigmine and edrophonium"
+    },
+    "answer": "d",
+    "explanation": "Common antagonists to nondepolarizing relaxants: <br>• Neostigmine—anticholinesterase drug given IV, very slowly to <br>counteract the action of nondepolarizing muscle relaxants (0.5–2.5 <br>mg). In order to counteract adverse effects (excessive salivary and <br>bronchial secretion, bronchospasm, and contraction of gut) atropine <br>should always be given, at least 5 minutes before neostigmine. <br>• Edrophonium— <br>o Short-acting synthetic anticholinesterase <br>o Its anticurare action is due to its depolarizing action along with <br>its direct action on motor end plate. <br>o Atropine should be administered beforehand to combat <br>muscarinic effects.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q73",
+    "num": "73",
+    "question": "Which one of following is not a perceptual abnormality?",
+    "options": {
+      "a": "Hallucination",
+      "b": "Illusion",
+      "c": "Misinterpretation",
+      "d": "Delusion"
+    },
+    "answer": "d",
+    "explanation": "• Hallucination—a perception that occurs in the absence of a stimulus. <br>• Illusion—a misinterpretation of stimuli arising from external object(s). <br>• Delusion—a false, unshakable belief which is not amenable to <br>reasoning and is not in keeping with the patients socio-culture and <br>educational background.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q74",
+    "num": "74",
+    "question": "Sometimes frank blood comes out when lumbar puncture is done  (through LP needle), this blood comes due to the puncture of",
+    "options": {
+      "a": "Anterior spinal artery and venous plexus",
+      "b": "Radicular arteries",
+      "c": "Venous  plexus located between posterior longitudinal ligament and vertebral body",
+      "d": "Venous plexus located between anterior longitudinal ligament and  vertebral body"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q75",
+    "num": "75",
+    "question": "Urethral carbuncle is best treated by",
+    "options": {
+      "a": "Administration of antibiotics",
+      "b": "Excision followed by repeated dilatation",
+      "c": "Resection and end to end anastomosis",
+      "d": "Chemical cauterization"
+    },
+    "answer": "b",
+    "explanation": "Urethral carbuncle—common in elderly women. <br>Presents as soft, raspberry like, highly vascular, pea size pedunculated <br>granulomatous mass at posterior urethral wall near external meatus. Clinical <br>features—frequency of micturition and pain and occasionally bleeding. <br>Treatment is by excision and diathermy coagulation of the base of the stalk. <br>Antibiotics to treat underlying chronic urethritis. Excision biopsy is the <br>definitive surgery.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q76",
+    "num": "76",
+    "question": "Coarctation of aorta is seen in",
+    "options": {
+      "a": "Klinefelter's syndrome",
+      "b": "Turner's syndrome",
+      "c": "Down's syndrome",
+      "d": "Albright's syndrome"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q77",
+    "num": "77",
+    "question": "Which one of the following is not seen in pericardial tamponade?",
+    "options": {
+      "a": "Pulsus bisferiens",
+      "b": "Raised JVP",
+      "c": "Muffled heart sounds",
+      "d": "Hypotension"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q78",
+    "num": "78",
+    "question": "Acute symptomatic sinus bradycardia usually responds to",
+    "options": {
+      "a": "Adrenalin",
+      "b": "Dopamine",
+      "c": "Atropine",
+      "d": "Norepinephrine"
+    },
+    "answer": "c",
+    "explanation": "Sinus bradycardia—a sinus rate less than 60 per <br>minute may occur in normal people during sleep and is a common finding in <br>athletes. Some pathological causes are MI, sick sinus syndrome, hypothermia, <br>hypothyroidism, cholestatic jaundice, raised intracranial pressure, drugs (β-<br>adrenoceptor antagonist, digoxin, and verapamil). Acute symptomatic sinus <br>bradycardia usually responds to IV atropine 0.6 mg.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q79",
+    "num": "79",
+    "question": "Which one of the following statements is true of Stoke-Adams attack?",
+    "options": {
+      "a": "It is usually preceded by an aura",
+      "b": "Focal neurological signs are commonly  observed during the attack",
+      "c": "It is usually caused by high degree of  atrioventricular block",
+      "d": "It is caused by recurrent paroxysmal  tachyarrhythmias"
+    },
+    "answer": "c",
+    "explanation": "Adams-Stoke attacks—episodes of ventricular <br>asystole may complicate complete heart block or Mobitz type II second <br>degree AV block and can occur in patients with sinoatrial disease. This may <br>cause recurrent syncope or Adams-Stoke attacks. Episode is characterized by <br>sudden loss of consciousness without warning. Convulsion due to cerebral <br>ischemia in prolonged asystole. In contrast to epilepsy, recovery is rapid.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q80",
+    "num": "80",
+    "question": "Which one of the following is an absolute contraindication to the use of  thrombolytic agent in the setting of an acute anterior wall myocardial  infarction?",
+    "options": {
+      "a": "History of CVA with hemiparesis one month ago",
+      "b": "Diabetic retinopathy",
+      "c": "Patient's age more than 70 years",
+      "d": "Patient is on warfarin for AF with INR  ration 1.8"
+    },
+    "answer": "a",
+    "explanation": "Contraindication of fibrinolytic agents: <br>1. Clear contraindication—(i) history of cerebrovascular hemorrhage at <br>any time, (ii) nonhemorrhagic stroke or other cerebrovascular event <br>within the past year, (iii) marked hypertension (systolic >180 mmHg <br>and/or >110 mmHg) at any time during acute presentation, (iv) <br>suspicion of aortic dissection, (v) active internal bleeding (excluding <br>menses). <br>2. Relative contraindications—(i) current use of anticoagulants (INR ≥2), <br>(ii) a recent (<2 weeks) invasive or surgical procedure, (iii) prolonged <br>(>10 minutes) CPR, (iv) known bleeding diathesis, (v) pregnancy, (vi) <br>hemorrhagic ophthalmic conditions (e.g., hemorrhagic diabetic <br>retinopathy), (vii) active peptic ulcer, (viii) history of severe <br>hypertension that is currently adequately controlled.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Medicine"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q81",
+    "num": "81",
+    "question": "The level of which one of the following compounds is elevated in  bronchial asthma?",
+    "options": {
+      "a": "PGI2",
+      "b": "PGH2",
+      "c": "Leukotriene",
+      "d": "Thromboxane"
+    },
+    "answer": "c",
+    "explanation": "Pathogenesis of asthma:<br>Extrinsic (atopic, allergic) asthma,<br>immune type 1 hypersensitivity<br>reaction<br>Intrinsic asthma,<br>abnormal autonomic<br>regulation of airways<br>should be in one line<br>Mixed,<br>exercise<br>induced, or<br>aspirin<br>induced<br>• Family history preceding allergic<br>disease such as rhinitis, urticaria, or<br>infantile eczema<br>• No family history<br><br>• Starts in childhood<br>• Starts in adult life<br><br>• Predisposition to form IgE<br>antibodies [activated TH2 cells are<br>increased numbers in asthma and<br>produce IL4 that initiate humoral<br>(IgE) immune response].<br>• IgE antibodies may be<br>formed but no particular<br>predisposition<br><br>• Allergens recognized—pollen,<br>dandruff, house dust, mite<br>• No recognizable<br>allergens<br><br>• Attacks often diminished in later<br>years<br>• Attacks increase in<br>severity<br><br>• Chronic bronchitis seldom develops<br>• Associated with nasal<br>polyp and chronic<br>bronchitis<br><br>• Emphysema unusual<br>• Emphysema<br>commonly develops<br><br>• No drug sensitivity<br>• Drug sensitivity may<br>develop (aspirin,<br>penicillin)<br><br><div class=\"table-container\"><table class=\"explanation-table\"><tr><td>Inhalation of allergen leads to biphasic response:</td><td>Early reaction</td><td>Late</td></tr><tr><td>phase</td><td></td><td>:---</td><td>:---</td><td></td><td>• Within 10 minutes of exposure to allergens.</td><td>•</td></tr><tr><td>Occurs in about two-thirds of patients.</td><td></td><td>• Release of histamine, leukotriene</td></tr><tr><td>mast cells.</td><td>• It develops 3–4 hours later with peak at 8–12 hours.</td><td></td><td>• This</td></tr><tr><td>(cromolyn or nedocromil).</td><td>• Release of mast cell mediators. <br> • Not</td></tr><tr><td>premedication with steroids and cromolyn or nedocromil</td></tr></table></div>",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q82",
+    "num": "82",
+    "question": "Interstitial pulmonary fibrosis is associated with the following, except",
+    "options": {
+      "a": "Sarcoidosis",
+      "b": "Asbestosis",
+      "c": "Carcinoid lung",
+      "d": "Radiation exposure"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q83",
+    "num": "83",
+    "question": "What is the most common presentation of sarcoidosis?",
+    "options": {
+      "a": "Erythema nodosum",
+      "b": "Respiratory manifestation",
+      "c": "Constitutional",
+      "d": "Abnormal routine X-ray chest"
+    },
+    "answer": "d",
+    "explanation": "Presentation of sarcoidosis: <br>• Asymptomatic—abnormal routine chest radiograph (30%) (bilateral <br>hilar lymphadenopathy) [Davidson] <br>• Respiratory and constitutional symptoms (20–30%) <br>• Erythema nodosum and arthralgia (20–30%) <br>• Ocular symptoms (5–10%) <br>• Skin sarcoidosis (5%) <br>• Other (1%), e.g., hypercalcemia, DI. Harrison—lung is almost always <br>involved, most patients have symptoms referable to respiratory <br>system. Kumar and Clark—sarcoidosis is a multisystem granulomatous <br>disorder, commonly affecting young adults and usually presenting with <br>bilateral hilar lymphadenopathy, pulmonary infiltration, and skin and <br>eye lesions. The most common presentation is with respiratory <br>symptoms and abnormalities found in chest X-ray (50%). There is <br>confusion between answer \"d\" and \"b\" in different books mentioned <br>above. Now, its upon you to choose the answer.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q84",
+    "num": "84",
+    "question": "Koplik spots are pathognomonic of",
+    "options": {
+      "a": "Measles",
+      "b": "Mumps",
+      "c": "Diphtheria",
+      "d": "Rubella"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q85",
+    "num": "85",
+    "question": "The following drugs are hepatotoxic except",
+    "options": {
+      "a": "Chlorpromazine",
+      "b": "Rifampicin",
+      "c": "Tobramycin",
+      "d": "Tetracycline"
+    },
+    "answer": "c",
+    "explanation": "• Chronic active hepatitis [mnemonics—MONIKA]—methyldopa, <br>oxyphenisatin, nitrofurantoin, isoniazid, ketoconazole, alcohol. <br>• Peliosis hepatis—OCP, anabolic steroids, danazol, azathioprine <br>[mnemonic—SODA]. <br>• Cholestasis—anabolic steroids, sulindac, methimazole, erythromycin <br>estolate, nitrofurantoin, rifampicin, oral contraceptive, <br>chlorpropamide, chlorpromazine, busulfan, tamoxifen, cyclosporine, <br>carbamazepine, nifedipine, verapamil. <br>• Fatty liver—tetracycline, sodium valproate, amiodarone, zidovudine, <br>asparaginase, methotrexate. <br>• Hepatitis—halothane, phenytoin, carbamazepine, methyldopa, <br>captopril, enalapril, isoniazid, rifampicin, nitrofurantoin, chlorothiazide, <br>oxyphenisatin, iproniazid, amitriptyline, imipramine, ibuprofen, <br>indomethacin, diclofenac, sulindac, dideoxyinosine, nifedipine, <br>verapamil, diltiazem, flutamide. <br>• Hepatic granuloma—phenylbutazone, sulfonamides, allopurinol, <br>quinidine, carbamazine [\"CAPS\"—mnemonic].",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q86",
+    "num": "86",
+    "question": "Consider the following:  1. Folic acid  2. Vitamin B12  3. Iron  4. Bile salts  5. Xylose For which of the above is the terminal ileum an absorptive site?",
+    "options": {
+      "a": "3 and 5",
+      "b": "2 and 4",
+      "c": "1, 3, and 4",
+      "d": "1, 2, and 5"
+    },
+    "answer": "b",
+    "explanation": "Normal transport of substances by intestine: <br> <br>Small intestine  <br>Colon <br>Absorption of <br>Upper <br>Mid Lower <br>Sugars (glucose, galactose) and amino acids <br>+++ <br>+++ ++ <br>Water and fat soluble vitamins (except vitamin B12) +++ <br>++ 0 <br>Fatty acid absorption and conversion to triglyceride +++ <br>++ + <br>Vitamin B12 <br>0 <br>+ <br>+++ <br>Bile salts <br>+ <br>+ <br>+++ <br>Na+ <br>+++ <br>++ +++ <br>K+ <br>+ <br>+ <br>+ <br>Ca++, Fe++ <br>+++ <br>++ + <br>Cl- <br>+++ <br>++ + <br>SO4 2- <br>++ <br>+ <br>0 <br>Upper small intestine refers primarily to jejunum, although the duodenum is <br>similar in most cases except duodenum secretes HCO3- and shows little net <br>absorption or secretion of NaCl.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q87",
+    "num": "87",
+    "question": "Consider the following:  1. Hepatocellular carcinoma  2. Gonadal teratoblastoma  3. Ataxia telangiectasia  4. Tyrosinosis In which of the above is increased alpha-fetoprotein  concentration found?",
+    "options": {
+      "a": "1, 2, and 3",
+      "b": "2 and 4",
+      "c": "1 and 4",
+      "d": "1, 2, 3, and 4"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q88",
+    "num": "88",
+    "question": "The following are causes of secretory diarrhea except",
+    "options": {
+      "a": "Vibrio cholera",
+      "b": "Inflammatory bowel disease",
+      "c": "Lactose intolerance",
+      "d": "Gastrinoma"
+    },
+    "answer": "c",
+    "explanation": "Causes of chronic diarrhea: <br>1. Osmotic diarrhea—clues—stool volume decreases with fasting, <br>increased stool osmotic gap; (i) Medications—antacids, lactulose, <br>sorbitol, (ii) disaccharidase deficiency—lactose intolerance, (iii) <br>factitious diarrhea—magnesium (antacids, laxatives). <br>2. Secretory diarrhea—clues—large volume (>1 L/day), little change with <br>fasting, normal stool osmotic gap; (i) hormonally mediated—vipoma, <br>carcinoid, medullary carcinoma of thyroid (calcitonin), Zollinger-Ellison <br>syndrome (gastrin), (ii) factitious diarrhea (laxative abuse), <br>phenolphthalein, cascara, senna, (iii) villous adenoma, (iv) bile salt <br>malabsorption (ileal resection, Crohn's ileitis, postcholecystectomy, (v) <br>medications.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q89",
+    "num": "89",
+    "question": "Renal osteodystrophy which accompanies chronic renal failure results  from",
+    "options": {
+      "a": "Hypocalcemia",
+      "b": "Hypophosphatemia",
+      "c": "Loss of vitamin D and calcium via  dialysis",
+      "d": "Impaired renal production of 1,25-dihydroxy vitamin D3"
+    },
+    "answer": "d",
+    "explanation": "Renal (azotemic) osteodystrophy—the metabolic <br>bone disease which accompanies CRF consists of mixture of osteomalacia, <br>hyperparathyroid bone disease (osteitis fibrosa), osteoporosis, and <br>osteosclerosis. <br>• Osteomalacia results from diminished activity of the renal 1-α <br>hydroxylase enzyme, with failure to convert cholecalciferol to its active <br>metabolite 1, 25(OH)2 cholecalciferol. <br>• Deficiency of 1, 25(OH)2 cholecalciferol leads to diminished intestinal <br>absorption of calcium, hypocalcemia, and reduction in calcification of <br>osteoid. <br>• Osteitis fibrosa results from secondary hyperparathyroidism. <br>• Osteosclerosis—in sacral area, at the base of the skull and vertebral. <br>Cause is not known. Laboratory investigations—hypocalcemia, <br>hyperphosphatemia, raised alkaline phosphatase, and parathyroid <br>hormone.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q90",
+    "num": "90",
+    "question": "Nephritic syndrome may be caused by the following except",
+    "options": {
+      "a": "Renal cell carcinoma",
+      "b": "Minimal change nephropathy",
+      "c": "Diabetes  mellitus",
+      "d": "Rheumatoid arthritis"
+    },
+    "answer": "d",
+    "explanation": "Etiopathogenesis of nephritic syndrome—divided <br>into: <br>Idiopathic <br>Secondary <br>Infantile <br>• MCNS (75% <br>of children <br>and 15% of <br>adult) <br> • <br>FSGS (10% of <br>children, 15% <br>of adult) <br> <br>• MPGN (10%) <br>• Membranous nephropathy, (<5% <br>in children and 50% of adult) <br> • <br>Membranoproliferative GN, renal <br>vein thrombosis, malignant <br>hypertension, P. malariae infection, <br>syphilis, hepatitis B, infective <br>endocarditis, sickle-cell disease, <br>varicella, ventriculoatrial shunt <br>infection, AIDS <br> • Associated <br>systemic disease—SLE, PAN, <br>microscopic polyarteritis, <br>Wegener's granulomatosis, <br>amyloidosis, DM, HS purpura <br> <br>• Drugs—(a) membranous type—<br>penicillamine, captopril, gold, <br>NSAIDs, mercurials compound; (b) <br>minimal changes—probenecid, <br>ethosuximide, methimazole, Li; (c) <br>proliferative GN—procainamide, <br>chlorpropamide, phenytoin, <br>• Primary—(a) congenital <br>nephritic syndrome—<br>\"Finnish\" microcystic <br>disease, (b) diffuse <br>mesangial sclerosis, (c) <br>minimal change, (d) focal <br>segmental, (e) Drash <br>syndrome <br> • <br>Secondary—syphilis, CMV, <br>toxoplasmosis, mercury <br>and nail-patella syndrome <br>trimethadione, paramethadione <br><br> • Tumors—carcinoma, <br>Hodgkin's disease, chronic <br>lymphatic leukemia <br> • <br>Hereditary disease—Alport's <br>disease, Fabry's disease",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q91",
+    "num": "91",
+    "question": "Consider the following drugs:  1. Diethylcarbamazine citrate  2. Metronidazole  3. Albendazole  4. Tinidazole Which of the above is/are the drug/drugs of choice for the  treatment of tropical eosinophilia?",
+    "options": {
+      "a": "1 only",
+      "b": "2 only",
+      "c": "1, 2, and 3",
+      "d": "1, 3, and 4"
+    },
+    "answer": "a",
+    "explanation": "Treatment of tropical pulmonary eosinophilia—DEC <br>(4–6 mg/kg body weight) per day for 14 days. Treatment of lymphatic <br>filariasis—DEC, 6 mg/kg/day for 12 days, which has both macro- and <br>microfilaricidal properties, remains the TOC for individual with active <br>lymphatic filariasis, although albendazole (400 mg x 2 for 21 days) has also <br>demonstrated microfilaricidal efficacy.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q92",
+    "num": "92",
+    "question": "With reference to cystic fibrosis, which one of the following statements  is not correct?",
+    "options": {
+      "a": "Gene is located on long arm of chromosome 7",
+      "b": "Lung function is grossly  impaired at birth",
+      "c": "Pseudomonas infection is very common",
+      "d": "Diabetes is  more commonly encountered than in normal population"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q93",
+    "num": "93",
+    "question": "Drug of choice for panic disorder is",
+    "options": {
+      "a": "Clonazepam",
+      "b": "Fluoxetine",
+      "c": "Chlorpromazine",
+      "d": "Lithium"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q94",
+    "num": "94",
+    "question": "ECT is most useful in which type of schizophrenia?",
+    "options": {
+      "a": "Simple",
+      "b": "Hebephrenic",
+      "c": "Catatonic",
+      "d": "Paranoid"
+    },
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q95",
+    "num": "95",
+    "question": "The treatment of choice in the management of acute manic illness is",
+    "options": {
+      "a": "ECT",
+      "b": "Amitriptyline",
+      "c": "Diazepam",
+      "d": "Lithium"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q96",
+    "num": "96",
+    "question": "<strong>Match list I (drugs) with list II (action) and select the correct answer \nusing the codes given below the lists:</strong><br><br>List I (Drugs) <br>List II (Action) <br>A. Cocaine <br>1. Sedative <br>B. Morphine <br>2. Psychostimulant <br>C. Benzodiazepine 3. Narcotic <br>D. Olanzapine <br>4. Antipsychotic",
+    "options": {
+      "a": "A-2, B-1, C-3, D-4",
+      "b": "A-2, B-3, C-1, D-4",
+      "c": "A-4, B-3, C-1, D-2",
+      "d": "A-4,  B-1, C-3, D-2"
+    },
+    "answer": "b",
+    "explanation": "Atypical neuroleptics—clozapine, risperidone, <br>olanzapine. Classification of CNS stimulants: <br>1. Convulsants—strychnine, picrotoxin, bicuculline, pentylenetetrazol <br>2. Analeptics—doxapram, prethcamide <br>3. Psychostimulants—amphetamine, methylphenidate, pemoline, <br>cocaine, caffeine.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q97",
+    "num": "97",
+    "question": "Which one of the following is least likely to occur in late extra-articular  seropositive rheumatoid arthritis?",
+    "options": {
+      "a": "Neutropenia",
+      "b": "Dry eye",
+      "c": "Leg ulcers",
+      "d": "Hepatitis"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q98",
+    "num": "98",
+    "question": "<strong>Match list I (nodes) with list II (disease) and select the correct answer \nusing the codes given below the lists:</strong><br><br>List I (Nodes) <br>List II (Disease) <br>A. Osler's nodes <br>1. Sarcoidosis <br>B. Heberden's nodes <br>2. Infective endocarditis <br>C. Erythema nodosum <br>3. Osteoarthritis <br>D. Subcutaneous nodules 4. Rheumatic fever",
+    "options": {
+      "a": "A-2, B-1, C-3, D-4",
+      "b": "A-2, B-3, C-1, D-4",
+      "c": "A-4, B-3, C-1, D-2",
+      "d": "A-4,  B-1, C-3, D-2"
+    },
+    "answer": "b",
+    "explanation": "• Osler's nodes—hard, painful, tender, subcutaneous swelling in finger, <br>toes, palm, and soles seen in infective endocarditis. <br>• Subcutaneous nodules are painless, pea-sized, hard nodules beneath <br>the skin particularly over tendon, joints, and bony prominence, are <br>major criteria of rheumatic fever. <br>• Erythema nodosum—painful nodules or plaques up to 5 cm, appear in <br>crops. Causes—drugs (sulfonamide, OCP, penicillin, bromide), <br>sarcoidosis (most common), inflammatory bowel disease, streptococci, <br>tuberculosis, leprosy, Yersinia, chlamydia, histoplasmosis, <br>coccidioidomycosis, blastomycosis.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q99",
+    "num": "99",
+    "question": "<strong>Match list I (disease) with list II (investigations) and select the correct \nanswer using the codes given below the lists:</strong><br><br>List I (Disease) <br>List II (Investigations) <br>A. Allergic angiitis with granulomatosis 1. Anticentromere antibodies <br>B. Wegener's granulomatosis <br>2. p-ANCA <br>C. SLE <br>3. c-ANCA <br>D. Scleroderma <br>4. Anti-Sm antibodies",
+    "options": {
+      "a": "A-2, B-4, C-3, D-1",
+      "b": "A-2, B-3, C-4, D-1",
+      "c": "A-1, B-3, C-4, D-2",
+      "d": "A-1,  B-4, C-3, D-2"
+    },
+    "answer": "b",
+    "explanation": "<div class=\"table-container\"><table class=\"explanation-table\"><tr><td>Antineutrophil cytoplasmic Ab (ANCA)</td><td>c-ANCA</td><td>p-</td></tr><tr><td>ANCA</td><td></td><td>:---</td><td>:---</td><td></td><td>• Proteinase-3, the 29 KDa neutral serine proteinase</td></tr><tr><td>present in neutrophil, azurophilic granules</td><td>• Major target for P-ANCA is the</td></tr><tr><td>enzyme myeloperoxidase</td><td></td><td>• Ex—Wegener's granulomatosis, active</td></tr><tr><td>glomerulonephritis</td><td>• Ex—Polyarteritis nodosa, Churg-Strauss syndrome,</td></tr><tr><td>syndrome</td></tr></table></div>",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q100",
+    "num": "100",
+    "question": "Consider the following statements: Pityriasis rosea: 1. Is caused by  fungus Malassezia furfur 2. Commonly affects palms and soles 3. Is present  with \"herald patch\" on trunk Which of these statements is/are correct?",
+    "options": {
+      "a": "1 and 2",
+      "b": "3 only",
+      "c": "2 and 3",
+      "d": "1, 2, and 3"
+    },
+    "answer": "b",
+    "explanation": "• Pityriasis rosea—[her mother came first without Christmas tree on <br>palm—mnemonic]. <br>• Herald patch (mother patch), cigarette paper like scales, fir tree <br>appearance on back, without involvement of palm \"P\"—<br>papulosquamous eruption, pruritus (moderately), and sole, Christmas <br>tree appearance, trailing scales, phototherapy (UV-B), palm—rarely <br>involved.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q101",
+    "num": "101",
+    "question": "Tuberculoid leprosy has following features except",
+    "options": {
+      "a": "Abundant Mycobacterium in the lesion",
+      "b": "A positive lepromin test",
+      "c": "Patchy anesthesia",
+      "d": "Thickened peripheral nerves"
+    },
+    "answer": "a",
+    "explanation": "Distinguishing features of various types of leprosy: <br>• Tuberculoid (TT): <br>o Lesion: Hypopigmented, clearly demarcated Macule papule <br>o No. of lesions: Usually single <br>o Sensation: Unlike other part of body, patch on face is not <br>anesthetic <br>o Peripheral nerve involvement: Markedly thickened, usually single <br>o AFB in lesion: Absent <br>o Lepromin test: +++ <br>• Borderline Tuberculoid (BT): <br>o Lesion: Hypopigmented, macules/papule, more numerous, <br>smaller, \"satellite lesion\" less distinct border <br>o No. of lesions: Usually more numerous <br>o Sensation: ↓↓ to ↓↓↓ <br>o Peripheral nerve involvement: Common, usually single <br>o AFB in lesion: ± <br>o Lepromin test: +/++ <br>• Borderline Borderline (BB): <br>o Lesion: More lesion than BT, orders more vague <br>o No. of lesions: Numerous <br>o Sensation: ↓ to ↓↓ <br>o Peripheral nerve involvement: Common, more than one <br>o AFB in lesion: + <br>o Lepromin test: - <br>• Borderline Lepromatous (BL): <br>o Lesion: Similar to BB <br>o No. of lesions: Many <br>o Sensation: ↓ <br>o Peripheral nerve involvement: Severe, asymmetrical <br>o AFB in lesion: ++ <br>o Lepromin test: - <br>• Lepromatous (LL): <br>o Lesion: Macular/papular symmetrically distributed <br>o No. of lesions: Numerous <br>o Sensation: Lost only in later stages <br>o Peripheral nerve involvement: None till late <br>o AFB in lesion: +++ <br>o Lepromin test: -",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q102",
+    "num": "102",
+    "question": "Which one of the following skin malignancies is most aggressive and is  radioresistant?",
+    "options": {
+      "a": "Basal cell carcinoma",
+      "b": "Squamous cell carcinoma",
+      "c": "Malignant melanoma",
+      "d": "Adenoma sebaceum"
+    },
+    "answer": "c",
+    "explanation": "Radiotherapy: <br>1. Highly sensitive: lymphoma, seminoma, myeloma, Ewing's sarcoma, <br>Wilms' tumor. <br>2. Moderately sensitive: small cell lung carcinoma, breast cancer, basal <br>cell carcinoma, medulloblastoma, teratoma, ovarian tumor. <br>3. Relatively resistant: squamous cell carcinoma, carcinoma cervix, <br>bladder and rectum, hypernephroma. <br>4. Highly resistant: melanoma, osteosarcoma, pancreatic carcinoma.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q103",
+    "num": "103",
+    "question": "<strong>Match list I (diuretics) with list II (site of action in the nephron) and \nselect the correct answer using the codes given below the lists:</strong><br><br>List I (Diuretics) A. Acetazolamide B. Furosemide C. Hydrochlorothiazide D. <br>Triamterene <br>List II (Site of action in the nephron) <br>1. Loop of Henle <br>2. Proximal convoluted tubule <br>3. Distal convoluted tubule <br>4. Collecting duct",
+    "options": {
+      "a": "A-2, B-3, C-1, D-4",
+      "b": "A-2, B-1, C-3, D-4",
+      "c": "A-4, B-3, C-1, D-2",
+      "d": "A-4,  B-1, C-3, D-2"
+    },
+    "answer": "b",
+    "explanation": "Sites of action, mechanism, and other important facts of <br>diuretics: <br>• Loop or high ceiling (furosemide, ethacrynic acid): <br>o Main site of action: Thick ascending limb of loop of Henle <br>o Mechanism of action: Inhibition of Na+, K+, 2Cl- carrier system <br>[20–30% sodium excretion in urine] <br>o Other features: ↓K+, ↓Mg2+, ↓Ca2+. Metabolic hypochloremic <br>alkalosis, hyperuricemia except indacrinone and ticrynafen. <br>• Thiazide: <br>o Main site of action: Distal portion of ascending limb of loop of <br>Henle (cortical dilating system) and early portion of distal <br>convoluted tubule <br>o Mechanism of action: Inhibition of Na+Cl- Co-transport system <br>[5-10% sodium excretion in urine] <br>o Other features: ↓K+, ↓Mg2+, ↑Ca2+. Metabolic hyponatremic, <br>hypochloremic alkalosis, hyperuricemia. <br>• K-sparing diuretics (Spironolactone): <br>o Main site of action: Distal collecting tubule and duct <br>o Mechanism of action: [<5% Na excretion in urine] direct <br>antagonism aldosterone receptors <br>o Other features: Gynecomastia. <br>• Triamterene, Amiloride: <br>o Mechanism of action: Inhibition of active Na+ absorption in <br>collecting tubule <br>o Other features: ARF when given with indomethacin. <br>• Carbonic anhydrase inhibitors (acetazolamide, ethoxzolamide, etc.): <br>o Main site of action: Proximal and distal convoluted tubule <br>o Mechanism of action: (CA) CO2 + H2O <---> H2CO3 <-> H+ + <br>HCO3-, H+ not available for H+/Na+ exchange, leading to <br>excretion of Na+ accompanied by water. <br>o Other features: Increased urinary amount of Na+, K+ and HCO3- <br>resulting Alkaline urine.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q104",
+    "num": "104",
+    "question": "Drug of choice of herpes simplex endophthalmitis is",
+    "options": {
+      "a": "Acyclovir",
+      "b": "Vidarabine",
+      "c": "Amantadine",
+      "d": "Interferon"
+    },
+    "answer": "a",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q105",
+    "num": "105",
+    "question": "Pellagra is characterized by the following except",
+    "options": {
+      "a": "Diarrhea",
+      "b": "Dementia",
+      "c": "Dermatitis",
+      "d": "Deafness"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q106",
+    "num": "106",
+    "question": "Most appropriate route for nutrition for comatose patient for long  period?",
+    "options": {
+      "a": "Nasogastric tube",
+      "b": "Gastrotomy tube",
+      "c": "Jejunostomy feeding",
+      "d": "Central venous hyperalimentation"
+    },
+    "answer": "c",
+    "explanation": "Bypassing the stomach <br>entirely prevents the massive, lethal risk of the comatose patient vomiting and <br>aspirating food into their lungs.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q107",
+    "num": "107",
+    "question": "<strong>Match list I (Drugs) with list II (Toxicity): A. Epirubicin - 4. \nCardiomyopathy B. Cyclophosphamide - 1. Alopecia C. Vincristine - 2. \nPeripheral neuropathy D. Methotrexate - 3. Bone marrow depression Answer: \n(a) A-4, B-1, C-2, D-3 | Tip: Anthracyclines (Epirubicin) notoriously destroy heart \nmuscle. Vincristine destroys peripheral nerves.</strong>",
+    "options": {},
+    "answer": "a",
+    "explanation": "Anthracyclines (Epirubicin) notoriously destroy heart <br>muscle. Vincristine destroys peripheral nerves.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q108",
+    "num": "108",
+    "question": "Which is not included in the treatment of malignant melanoma?",
+    "options": {
+      "a": "Radiation",
+      "b": "Surgical excision",
+      "c": "Chemotherapy",
+      "d": "Immunotherapy"
+    },
+    "answer": "a",
+    "explanation": "Melanoma is highly radio-resistant, making radiation entirely useless <br>as a primary treatment.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q109",
+    "num": "109",
+    "question": "Lymphatic spread commonly occurs in:",
+    "options": {
+      "a": "Carcinoma of prostate",
+      "b": "Basal cell carcinoma",
+      "c": "Liposarcoma",
+      "d": "Ewing's sarcoma"
+    },
+    "answer": "a",
+    "explanation": "Sarcomas strictly spread via blood. Carcinomas (like prostate) aggressively <br>spread via lymph nodes.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q110",
+    "num": "110",
+    "question": "Most common cause of perforation of distal ileum in India is:",
+    "options": {
+      "a": "Tuberculosis",
+      "b": "Typhoid",
+      "c": "Amoebiasis",
+      "d": "Regional enteritis"
+    },
+    "answer": "b",
+    "explanation": "Typhoid violently attacks and ulcerates the Peyer's patches physically located in <br>the terminal ileum.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q111",
+    "num": "111",
+    "question": "Universal precautions by surgeons for HIV include following EXCEPT:",
+    "options": {
+      "a": "Wearing gloves",
+      "b": "Washing hands on contamination",
+      "c": "Handing sharp  instruments with care",
+      "d": "Preoperative screening of all patients"
+    },
+    "answer": "b",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q112",
+    "num": "112",
+    "question": "Human is a definitive host for following EXCEPT:",
+    "options": {
+      "a": "Taenia saginata",
+      "b": "Echinococcus granulosus",
+      "c": "Ascaris lumbricoides",
+      "d": "Ancylostoma duodenale"
+    },
+    "answer": "b",
+    "explanation": "The dog is the definitive host for Echinococcus. Humans <br>accidentally swallow the eggs and become dead-end intermediate hosts.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q113",
+    "num": "113",
+    "question": "<strong>Match list I (Organism) with list II (Drug treatment): A. Pneumocystis \ncarinii - 2. Cotrimoxazole B. Cytomegalovirus - 3. Ganciclovir C. Varicella-zoster - \n4. Acyclovir D. Cryptococcus - 1. Amphotericin B Answer: (c) A-2, B-3, C-4, D-1 | \nTip: CMV strictly requires the heavy-duty drug Ganciclovir. PCP pneumonia is \nflawlessly treated with basic Cotrimoxazole.</strong>",
+    "options": {},
+    "answer": "c",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q114",
+    "num": "114",
+    "question": "Mantoux test is an example of immunologic reaction belonging to:",
+    "options": {
+      "a": "Type I",
+      "b": "Type II",
+      "c": "Type III",
+      "d": "Type IV delayed hypersensitivity"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q115",
+    "num": "115",
+    "question": "In tropical splenomegaly syndrome, there is increased serum level of:",
+    "options": {
+      "a": "IgA",
+      "b": "IgE",
+      "c": "IgG",
+      "d": "IgM"
+    },
+    "answer": "d",
+    "explanation": "Repeated chronic malaria <br>infections force the body to hyper-produce massive amounts of IgM antibodies.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q116",
+    "num": "116",
+    "question": "Anticholinesterase poisoning characterized by EXCEPT:",
+    "options": {
+      "a": "Alteration in  sensorium",
+      "b": "Convulsions",
+      "c": "Muscle weakness",
+      "d": "Hypohidrosis"
+    },
+    "answer": "d",
+    "explanation": "",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q117",
+    "num": "117",
+    "question": "Neostigmine is beneficial in symptomatic bites by:",
+    "options": {
+      "a": "Cobra",
+      "b": "Viper",
+      "c": "Scorpion",
+      "d": "Black widow spider"
+    },
+    "answer": "a",
+    "explanation": "Cobra venom is purely <br>neurotoxic (acting exactly like curare). Neostigmine floods the junction with <br>acetylcholine to reverse the fatal respiratory paralysis.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q118",
+    "num": "118",
+    "question": "Which is due to autosomal recessive inheritance?",
+    "options": {
+      "a": "Cystic fibrosis",
+      "b": "Hemophilia A",
+      "c": "Osteogenesis imperfecta",
+      "d": "Von Willebrand's disease"
+    },
+    "answer": "a",
+    "explanation": "CF strictly requires two mutated copies of the CFTR gene to <br>manifest the lethal lung disease.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q119",
+    "num": "119",
+    "question": "Which is not an X-linked recessive muscular dystrophy?",
+    "options": {
+      "a": "Duchenne's",
+      "b": "Becker's",
+      "c": "Limb-girdle",
+      "d": "Emery-Dreifuss"
+    },
+    "answer": "c",
+    "explanation": "Limb-girdle is <br>strictly inherited via Autosomal dominant or Autosomal recessive patterns.",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "UPSC_2005_P1_Q120",
+    "num": "120",
+    "question": "Which platelet count is associated with increased spontaneous  bleeding?",
+    "options": {
+      "a": "Greater than 80,000",
+      "b": "40,000-50,000",
+      "c": "20,000-40,000",
+      "d": "Less  than 20,000"
+    },
+    "answer": "d",
+    "explanation": "Normal surgery requires >50,000. But the brain <br>will literally bleed spontaneously without trauma if the platelets violently crash <br>below 20,000",
+    "year": "2005",
+    "paper": "1",
+    "tags": [
+      "Pediatrics"
+    ]
+  }
+]

@@ -14,6 +14,8 @@ const state = {
     mode: null, // 'study', 'exam'
     currentSubject: 'all',
     currentYear: 'all',
+    currentExamYear: '',
+    currentExamPaper: '',
     currentUnit: '',
     currentLimit: 'all',
     isCustomQBank: false,
@@ -73,6 +75,7 @@ const el = {
     paywall: {
         modal: document.getElementById('paywallModal'),
         btnUpgradeUPSC2026: document.getElementById('btnUpgradeUPSC2026'),
+        btnDashboardUpgrade: document.getElementById('btnDashboardUpgrade'),
         btnCancel: document.getElementById('btnCancelPaywall')
     },
     customQBank: {
@@ -82,6 +85,13 @@ const el = {
         timerInput: document.getElementById('customTimerInput'),
         btnCancel: document.getElementById('btnCancelCustomQBank'),
         btnStart: document.getElementById('btnStartCustomQBank')
+    },
+    examMode: {
+        modal: document.getElementById('examModeModal'),
+        yearSelect: document.getElementById('examYearSelect'),
+        paperSelect: document.getElementById('examPaperSelect'),
+        btnCancel: document.getElementById('btnCancelExamMode'),
+        btnStart: document.getElementById('btnStartExamNow')
     },
     superRevision: {
         modal: document.getElementById('superRevisionModal'),
@@ -104,6 +114,14 @@ function showToast(msg) {
     setTimeout(() => {
         el.toast.classList.add('hidden');
     }, 3000);
+}
+
+function updatePremiumUI() {
+    if (state.isPremium) {
+        document.body.classList.add('premium-user');
+    } else {
+        document.body.classList.remove('premium-user');
+    }
 }
 
 function switchScreen(screenName) {
@@ -149,8 +167,22 @@ function toggleBookmark(qText, silent = false) {
         state.bookmarks.splice(index, 1);
         if (!silent) showToast("Removed from Bookmarks ☆");
     }
-    localStorage.setItem('medprep_bookmarks', JSON.stringify(state.bookmarks));
+    localStorage.setItem('upsccms_bookmarks', JSON.stringify(state.bookmarks));
+    syncUserData();
     updateBookmarkUI();
+}
+
+async function syncUserData() {
+    if (!state.user) return;
+    try {
+        await supabaseClient.from('profiles').update({
+            bookmarks: state.bookmarks,
+            wrong_counts: state.wrongCounts,
+            questions_attempted: state.questionsAttempted
+        }).eq('id', state.user.id);
+    } catch (e) {
+        console.error("Error syncing user data:", e);
+    }
 }
 
 function updateBookmarkUI() {
@@ -177,6 +209,7 @@ function incrementWrongCount(qText) {
     }
     state.wrongCounts[qText]++;
     localStorage.setItem('upsccms_wrongCounts', JSON.stringify(state.wrongCounts));
+    syncUserData();
 }
 
 // Refresh/Load DOM Elements
@@ -242,6 +275,12 @@ function refreshElements() {
     el.paywall.modal = document.getElementById('paywallModal');
     el.paywall.btnUpgradeUPSC2026 = document.getElementById('btnUpgradeUPSC2026');
     el.paywall.btnCancel = document.getElementById('btnCancelPaywall');
+
+    el.examMode.modal = document.getElementById('examModeModal');
+    el.examMode.yearSelect = document.getElementById('examYearSelect');
+    el.examMode.paperSelect = document.getElementById('examPaperSelect');
+    el.examMode.btnCancel = document.getElementById('btnCancelExamMode');
+    el.examMode.btnStart = document.getElementById('btnStartExamNow');
 }
 
 // Initial Setup
@@ -323,7 +362,7 @@ async function fetchProfile() {
     try {
         const { data, error } = await supabaseClient
             .from('profiles')
-            .select('is_premium, questions_attempted, full_name, college, batch_year, phone')
+            .select('is_premium, questions_attempted, full_name, college, batch_year, phone, bookmarks, wrong_counts')
             .eq('id', state.user.id)
             .single();
 
@@ -331,6 +370,7 @@ async function fetchProfile() {
 
         if (data) {
             state.isPremium = data.is_premium || false;
+            updatePremiumUI();
             state.questionsAttempted = data.questions_attempted || 0;
 
             // Populate state with retrieved profile data
@@ -338,6 +378,16 @@ async function fetchProfile() {
             state.user.college = data.college;
             state.user.batch_year = data.batch_year;
             state.user.phone = data.phone;
+
+            // Sync bookmarks and wrong counts if available and newer than local
+            if (data.bookmarks) {
+                state.bookmarks = data.bookmarks;
+                localStorage.setItem('upsccms_bookmarks', JSON.stringify(state.bookmarks));
+            }
+            if (data.wrong_counts) {
+                state.wrongCounts = data.wrong_counts;
+                localStorage.setItem('upsccms_wrongCounts', JSON.stringify(state.wrongCounts));
+            }
 
             // Set name for display
             state.user.name = data.full_name || state.user.email;
@@ -559,9 +609,18 @@ function setupAuthListeners() {
     if (el.auth.logoutBtn) {
         el.auth.logoutBtn.addEventListener('click', async () => {
             await supabaseClient.auth.signOut();
+            
+            // Clear local user data on logout
+            localStorage.removeItem('upsccms_bookmarks');
+            localStorage.removeItem('upsccms_wrongCounts');
+            localStorage.removeItem('upsccms_attempts');
+            
             state.user = null;
             state.isPremium = false;
             state.questionsAttempted = 0;
+            state.bookmarks = [];
+            state.wrongCounts = {};
+            
             updateHeaderAuth();
             switchScreen('auth');
         });
@@ -639,6 +698,10 @@ function initDashboard() {
         opt.value = y;
         opt.textContent = y;
         el.start.yearSelect.appendChild(opt);
+
+        // Also for Exam Mode
+        const examOpt = opt.cloneNode(true);
+        el.examMode.yearSelect.appendChild(examOpt);
     });
 
     initCustomQBankDashboard(subjectsList);
@@ -693,8 +756,28 @@ function initCustomQBankDashboard(subjects) {
 
 function setupDashboardListeners() {
     if (el.start.btnStudy) el.start.btnStudy.addEventListener('click', () => startMode('study'));
-    if (el.start.btnExam) el.start.btnExam.addEventListener('click', () => startMode('exam'));
+    if (el.start.btnExam) {
+        el.start.btnExam.addEventListener('click', () => {
+            el.examMode.modal.classList.remove('hidden');
+        });
+    }
     if (el.start.btnBookmarks) el.start.btnBookmarks.addEventListener('click', () => startMode('bookmarks_review'));
+
+    // Exam Mode Modal Listeners
+    if (el.examMode.btnCancel) {
+        el.examMode.btnCancel.addEventListener('click', () => {
+            el.examMode.modal.classList.add('hidden');
+        });
+    }
+
+    if (el.examMode.btnStart) {
+        el.examMode.btnStart.addEventListener('click', () => {
+            state.currentExamYear = el.examMode.yearSelect.value;
+            state.currentExamPaper = el.examMode.paperSelect.value;
+            el.examMode.modal.classList.add('hidden');
+            startMode('exam');
+        });
+    }
     if (el.start.btnSuperRevision) {
         el.start.btnSuperRevision.addEventListener('click', () => {
             el.superRevision.modal.classList.remove('hidden');
@@ -791,7 +874,18 @@ function filterQuestions() {
     const mode = state.mode || 'study';
 
     // 1. Mode Pre-filtering
-    if (mode === 'bookmarks_review') {
+    if (mode === 'exam') {
+        // Strict year and paper filtering for Exam Mode
+        const selYear = (state.currentExamYear || '').toString().toLowerCase().trim();
+        const selPaper = (state.currentExamPaper || '').toString().toLowerCase().trim();
+        
+        if (selYear && selYear !== 'all') {
+            source = source.filter(q => (q.year || '').toString().toLowerCase().trim() === selYear);
+        }
+        if (selPaper) {
+            source = source.filter(q => (q.paper || '').toString().toLowerCase().trim() === selPaper);
+        }
+    } else if (mode === 'bookmarks_review') {
         source = source.filter(q => state.bookmarks.includes(q.question));
     } else if (mode === 'super_revision') {
         source = source.filter(q => (state.wrongCounts[q.question] || 0) >= 1);
@@ -803,7 +897,7 @@ function filterQuestions() {
         selSubs = state.customSubjects || [];
     } else if (mode === 'super_revision') {
         selSubs = state.superRevisionSubjects || [];
-    } else if (state.currentSubject && state.currentSubject !== 'all') {
+    } else if (mode !== 'exam' && state.currentSubject && state.currentSubject !== 'all') {
         selSubs = [state.currentSubject];
     }
 
@@ -815,13 +909,19 @@ function filterQuestions() {
             const qParts = raw.split(/[&/]/).map(p => cleanSubject(p).toLowerCase().trim());
             const qTopic = (q.topic || '').toLowerCase().trim();
             
-            // Match if any cleaned part of the question's subject matches any selected subject
-            return targetSubs.some(s => qParts.includes(s) || qTopic.includes(s));
+            // CONSOLIDATION: Medicine selection includes Pediatrics
+            const effectiveTargetSubs = [...targetSubs];
+            if (targetSubs.includes('medicine')) {
+                effectiveTargetSubs.push('pediatrics');
+            }
+
+            // Match if any cleaned part of the question's subject matches any target subject
+            return effectiveTargetSubs.some(s => qParts.includes(s) || qTopic.includes(s));
         });
     }
 
     // 3. Year Filter (Only if not in custom modes generally, but let's allow it for standard)
-    if (mode !== 'custom_qbank' && mode !== 'super_revision' && mode !== 'bookmarks_review') {
+    if (mode !== 'exam' && mode !== 'custom_qbank' && mode !== 'super_revision' && mode !== 'bookmarks_review') {
         if (state.currentYear && state.currentYear !== 'all') {
             const selYear = state.currentYear.toString().toLowerCase().trim();
             source = source.filter(q => (q.year || '').toString().toLowerCase().trim() === selYear);
@@ -856,9 +956,30 @@ function startMode(mode) {
     // Run unified filter
     let matching = filterQuestions();
 
+    // Pad with random questions if fewer than 120 (for Exam Mode)
+    if (mode === 'exam' && matching.length < 120) {
+        const needed = 120 - matching.length;
+        // Avoid duplicates
+        const existingIds = new Set(matching.map(q => q.id));
+        const pool = mcqData.filter(q => !existingIds.has(q.id));
+        
+        // Randomly pick the extras
+        const shuffledPool = [...pool].sort(() => 0.5 - Math.random());
+        const extras = shuffledPool.slice(0, needed);
+        
+        matching = [...matching, ...extras];
+    }
+
     // Support sorting for Super Revision (hardest first)
     if (mode === 'super_revision') {
         matching.sort((a, b) => (state.wrongCounts[b.question] || 0) - (state.wrongCounts[a.question] || 0));
+    } else if (mode === 'exam') {
+        // Sort by question number for a realistic experience
+        matching.sort((a, b) => {
+            const numA = parseInt(a.num) || 0;
+            const numB = parseInt(b.num) || 0;
+            return numA - numB;
+        });
     } else {
         // Randomize for other modes? Usually better for practice
         matching.sort(() => Math.random() - 0.5);
@@ -866,7 +987,9 @@ function startMode(mode) {
 
     // Apply limits
     let limit = 0;
-    if (mode === 'custom_qbank') {
+    if (mode === 'exam') {
+        limit = 120; // UPSC CMS papers have 120 questions
+    } else if (mode === 'custom_qbank') {
         limit = parseInt(el.customQBank.limitInput.value) || 50;
     } else if (state.currentLimit && state.currentLimit !== 'all') {
         limit = parseInt(state.currentLimit);
@@ -892,10 +1015,8 @@ function startMode(mode) {
     }
 
     // Timer Logic
-    if (mode === 'exam' && el.start.timerInput && el.start.timerInput.value) {
-        const mins = parseInt(el.start.timerInput.value);
-        if (mins > 0) startTimer(mins * 60);
-        else el.quiz.timerDisplay.classList.add('hidden');
+    if (mode === 'exam') {
+        startTimer(120 * 60); // 120 Minutes for Exam Mode
     } else if (mode === 'custom_qbank') {
         const mins = parseInt(el.customQBank.timerInput.value);
         if (mins > 0) startTimer(mins * 60);
@@ -1264,6 +1385,7 @@ function setupScoreListeners() {
                             showToast("Payment captured but DB update failed: " + error.message);
                         } else {
                             state.isPremium = true;
+                            updatePremiumUI();
                             el.paywall.modal.classList.add('hidden');
                             showToast(`💎 Upgrade Successful! You are now on the ${planText}.`);
                             startMode(state.mode); // Resume where they left off
@@ -1302,6 +1424,9 @@ function setupScoreListeners() {
 
     if (el.paywall.btnUpgradeUPSC2026) {
         el.paywall.btnUpgradeUPSC2026.addEventListener('click', () => handleUpgrade(el.paywall.btnUpgradeUPSC2026, 'UPSC CMS 2026 Plan'));
+    }
+    if (el.paywall.btnDashboardUpgrade) {
+        el.paywall.btnDashboardUpgrade.addEventListener('click', () => handleUpgrade(el.paywall.btnDashboardUpgrade, 'UPSC CMS 2026 Plan'));
     }
 }
 
