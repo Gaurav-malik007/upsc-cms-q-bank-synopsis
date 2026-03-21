@@ -73,7 +73,7 @@ def main():
     
     # Write back
     with open(path, 'w', encoding='utf-8') as f:
-        f.write("const upscQuestions = ")
+        f.write("const mcqData = ")
         json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
         f.write(";")
 

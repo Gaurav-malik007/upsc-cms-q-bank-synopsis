@@ -14,26 +14,25 @@ def parse_pdf(pdf_path, year, paper):
     # Reconstruct text carefully by sorting words
     full_text = ""
     for page in doc:
-        words = page.get_text("words")
+        blocks = page.get_text("blocks")
+        # Split into columns using midpoint
         mid_x = page.rect.width / 2
         
-        left_words = [w for w in words if w[0] < mid_x]
-        right_words = [w for w in words if w[0] >= mid_x]
+        left_blocks = [b for b in blocks if b[0] < mid_x]
+        right_blocks = [b for b in blocks if b[0] >= mid_x]
+        
+        # Sort each column by y-coordinate
+        left_blocks.sort(key=lambda b: b[1])
+        right_blocks.sort(key=lambda b: b[1])
         
         page_text = ""
-        for column_words in [left_words, right_words]:
-            # Sort by y0 first, then x0
-            column_words.sort(key=lambda w: (int(w[1] / 3), w[0]))
+        for column in [left_blocks, right_blocks]:
+            for b in column:
+                text = b[4].replace('\r\n', '\n').strip()
+                if text:
+                    page_text += text + "\n"
+            page_text += "\n" # Gap between columns
             
-            current_y = -1
-            for w in column_words:
-                if current_y != -1 and abs(w[1] - current_y) > 3:
-                    page_text += "\n"
-                elif current_y != -1:
-                    page_text += " "
-                page_text += w[4]
-                current_y = w[1]
-            page_text += "\n\n"
         full_text += page_text + "\n"
     
     doc.close()
