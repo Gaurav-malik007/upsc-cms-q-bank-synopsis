@@ -47,8 +47,9 @@ def parse_pdf(pdf_path, year, paper):
     # Split into question blocks
     # Looking for patterns like Q1. or 1. at the start of a line
     # Sometimes it's Q.1 or Q 1.
-    # The new PDFs seem to use Q1., Q2., etc.
-    q_blocks = re.split(r'\n(Q\d+[\.:\s]*)', "\n" + full_text)
+    # We improve this to catch Q markers even if they're not at the absolute start of a line
+    # but follow a standard delimiter like (d) or Answer:
+    q_blocks = re.split(r'(?:\n|\s+)(Q\d+[\.:\s]*)', full_text)
     
     questions = []
     for i in range(1, len(q_blocks), 2):
@@ -118,11 +119,15 @@ def parse_pdf(pdf_path, year, paper):
 
         if q_text and answer:
             subject = "Medicine"
-            if int(q_num) > 80: subject = "Pediatrics"
+            num_v = int(q_num)
+            if year == "2024" and paper == "1":
+                if num_v > 96: subject = "Pediatrics"
+            elif paper == "1" and num_v > 80: 
+                subject = "Pediatrics"
+            
             if paper == "2":
-                num_v = int(q_num)
                 if num_v <= 40: subject = "Surgery"
-                elif num_v <= 80: subject = "OBG"
+                elif num_v <= 80: subject = "OBGYN"
                 else: subject = "PSM"
                 
             questions.append({
