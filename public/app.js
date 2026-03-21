@@ -1056,19 +1056,36 @@ function setupQuizListeners() {
     }
 
     if (el.quiz.btnNext) {
-        el.quiz.btnNext.onclick = () => {
+        el.quiz.btnNext.onclick = (e) => {
+            if (e) e.preventDefault();
+            
+            // 防抖 logic (Anti-skip guard)
+            const now = Date.now();
+            if (state._lastNextClick && (now - state._lastNextClick < 400)) {
+                console.warn("Rapid click detected, ignoring to prevent skip.");
+                return;
+            }
+            state._lastNextClick = now;
+
             if (state.currentIndex < state.questions.length - 1) {
                 state.currentIndex++;
                 state.showExplanation = false;
                 renderQuestion();
             } else {
-                finishQuiz(); // Still finish quiz if it's the last question
+                finishQuiz();
             }
         };
     }
 
     if (el.quiz.btnPrev) {
-        el.quiz.btnPrev.onclick = () => {
+        el.quiz.btnPrev.onclick = (e) => {
+            if (e) e.preventDefault();
+            
+            // 防抖
+            const now = Date.now();
+            if (state._lastPrevClick && (now - state._lastPrevClick < 400)) return;
+            state._lastPrevClick = now;
+
             if (state.currentIndex > 0) {
                 state.currentIndex--;
                 state.showExplanation = state.mode === 'study' && !!state.answers[state.currentIndex];
@@ -1127,6 +1144,12 @@ function renderQuestion() {
         switchScreen('start');
         return; 
     }
+
+    // Jump detection for debugging
+    if (typeof state._prevIdx !== 'undefined' && state.currentIndex > state._prevIdx + 1 && state.currentIndex !== 0) {
+        console.error(`JUMP DETECTED from ${state._prevIdx} to ${state.currentIndex}. Stack:`, new Error().stack);
+    }
+    state._prevIdx = state.currentIndex;
 
     const q = state.questions[state.currentIndex];
     if (!q) {
